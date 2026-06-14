@@ -1,5 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15 13H9C8.447 13 8 12.552 8 12C8 11.448 8.447 11 9 11H15C15.553 11 16 11.448 16 12C16 12.552 15.553 13 15 13Z" fill="#25314C"/>
-<path opacity="0.4" d="M16 18H14C13.447 18 13 17.552 13 17C13 16.448 13.447 16 14 16H16C18.206 16 20 14.206 20 12C20 9.794 18.206 8 16 8H14C13.447 8 13 7.552 13 7C13 6.448 13.447 6 14 6H16C19.309 6 22 8.692 22 12C22 15.308 19.309 18 16 18Z" fill="#25314C"/>
-<path opacity="0.4" d="M10 18H8C4.691 18 2 15.308 2 12C2 8.692 4.691 6 8 6H10C10.553 6 11 6.448 11 7C11 7.552 10.553 8 10 8H8C5.794 8 4 9.794 4 12C4 14.206 5.794 16 8 16H10C10.553 16 11 16.448 11 17C11 17.552 10.553 18 10 18Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const LinkHorizontal = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M15 13H9a1 1 0 1 1 0-2h6a1 1 0 1 1 0 2" /><path fill="#25314c" d="M16 18h-2a1 1 0 1 1 0-2h2c2.206 0 4-1.794 4-4s-1.794-4-4-4h-2a1 1 0 1 1 0-2h2c3.309 0 6 2.692 6 6s-2.691 6-6 6M10 18H8c-3.309 0-6-2.692-6-6s2.691-6 6-6h2a1 1 0 1 1 0 2H8c-2.206 0-4 1.794-4 4s1.794 4 4 4h2a1 1 0 1 1 0 2" opacity={0.4} /></svg>;
+export { LinkHorizontal };

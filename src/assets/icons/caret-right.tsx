@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M15.396 10.698L10.2019 6.3181C9.3289 5.5821 8 6.20603 8 7.35203V16.6479C8 17.7939 9.3299 18.4179 10.2019 17.6819L15.396 13.302C16.201 12.623 16.201 11.377 15.396 10.698Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaretRight = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m15.396 10.698-5.194-4.38C9.329 5.582 8 6.206 8 7.352v9.296c0 1.146 1.33 1.77 2.202 1.034l5.194-4.38a1.706 1.706 0 0 0 0-2.604" opacity={0.4} /></svg>;
+export { CaretRight };
