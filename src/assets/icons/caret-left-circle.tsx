@@ -1,4 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#25314C"/>
-<path d="M9.236 12.8679L12.6979 15.788C13.2799 16.279 14.1669 15.8621 14.1669 15.0991V8.90084C14.1669 8.13684 13.2809 7.72087 12.6979 8.21187L9.236 11.132C8.699 11.585 8.699 12.4149 9.236 12.8679Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaretLeftCircle = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity={0.4} /><path fill="#25314c" d="m9.236 12.868 3.462 2.92c.582.491 1.469.074 1.469-.689V8.901c0-.764-.886-1.18-1.47-.69l-3.461 2.921a1.137 1.137 0 0 0 0 1.736" /></svg>;
+export { CaretLeftCircle };

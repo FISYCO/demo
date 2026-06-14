@@ -1,4 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M20 13H4C3.447 13 3 12.552 3 12C3 11.448 3.447 11 4 11H20C20.553 11 21 11.448 21 12C21 12.552 20.553 13 20 13Z" fill="#25314C"/>
-<path d="M16 17C15.744 17 15.488 16.9021 15.293 16.7071C14.902 16.3161 14.902 15.684 15.293 15.293L18.586 12L15.293 8.70707C14.902 8.31607 14.902 7.68401 15.293 7.29301C15.684 6.90201 16.3161 6.90201 16.7071 7.29301L20.7071 11.293C21.0981 11.684 21.0981 12.3161 20.7071 12.7071L16.7071 16.7071C16.5121 16.9021 16.256 17 16 17Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowRightSmall = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20 13H4a1 1 0 1 1 0-2h16a1 1 0 1 1 0 2" opacity={0.4} /><path fill="#25314c" d="M16 17a.999.999 0 0 1-.707-1.707L18.586 12l-3.293-3.293a.999.999 0 1 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414l-4 4A1 1 0 0 1 16 17" /></svg>;
+export { ArrowRightSmall };

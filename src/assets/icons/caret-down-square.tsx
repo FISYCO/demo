@@ -1,4 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.4" d="M6.375 21H17.625C19.875 21 21 19.875 21 17.625V6.375C21 4.125 19.875 3 17.625 3H6.375C4.125 3 3 4.125 3 6.375V17.625C3 19.875 4.125 21 6.375 21Z" fill="#25314C"/>
-<path d="M12.8679 14.7639L15.788 11.302C16.279 10.72 15.8621 9.83301 15.0991 9.83301H8.90084C8.13684 9.83301 7.72087 10.719 8.21187 11.302L11.132 14.7639C11.585 15.3009 12.4149 15.3009 12.8679 14.7639Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaretDownSquare = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity={0.4} /><path fill="#25314c" d="m12.868 14.764 2.92-3.462c.491-.582.074-1.469-.689-1.469H8.901c-.764 0-1.18.886-.69 1.469l2.921 3.462a1.137 1.137 0 0 0 1.736 0" /></svg>;
+export { CaretDownSquare };
