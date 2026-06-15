@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18 6.5H13.207L10.353 3.646C10.259 3.552 10.132 3.5 9.99902 3.5H5.99902C3.70902 3.5 2.49902 4.71 2.49902 7V17C2.49902 19.29 3.70902 20.5 5.99902 20.5H17.999C20.289 20.5 21.499 19.29 21.499 17V10C21.5 7.71 20.29 6.5 18 6.5ZM6 4.5H9.79297L12.647 7.354C12.741 7.448 12.868 7.5 13.001 7.5H18.001C19.73 7.5 20.501 8.271 20.501 10V14.5H3.50098V7C3.49998 5.271 4.271 4.5 6 4.5ZM18 19.5H6C4.271 19.5 3.5 18.729 3.5 17V15.5H20.5V17C20.5 18.729 19.729 19.5 18 19.5Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const FolderAlt = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3 17q0 3 3 3h12q3 0 3-3v-2H3z" /><path fill="#25314c" d="M18 7h-5l-3-3H6Q3 4 3 7v8h18v-5q0-3-3-3" opacity={0.4} /></svg>;
+export { FolderAlt };
