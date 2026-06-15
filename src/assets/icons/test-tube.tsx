@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17 2.5H7C6.724 2.5 6.5 2.724 6.5 3C6.5 3.276 6.724 3.5 7 3.5H8V17.5C8 19.706 9.794 21.5 12 21.5C14.206 21.5 16 19.706 16 17.5V3.5H17C17.276 3.5 17.5 3.276 17.5 3C17.5 2.724 17.276 2.5 17 2.5ZM12 20.5C10.346 20.5 9 19.154 9 17.5V11.5H15V17.5C15 19.154 13.654 20.5 12 20.5ZM15 10.5H9V3.5H15V10.5Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const TestTube = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M8.5 3v14.5a3.5 3.5 0 1 0 7 0V3" opacity={0.4} /><path fill="#25314c" d="M8.5 11h7v6.5c0 .96-.39 1.84-1.03 2.47-.63.64-1.5 1.03-2.47 1.03-1.93 0-3.5-1.57-3.5-3.5zM17 3.75H7a.75.75 0 0 1 0-1.5h10a.75.75 0 0 1 0 1.5" /></svg>;
+export { TestTube };
