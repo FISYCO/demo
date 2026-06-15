@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16 5.5H8C4.416 5.5 1.5 8.416 1.5 12C1.5 15.584 4.416 18.5 8 18.5H16C19.584 18.5 22.5 15.584 22.5 12C22.5 8.416 19.584 5.5 16 5.5ZM16 17.5H8C4.968 17.5 2.5 15.033 2.5 12C2.5 8.967 4.968 6.5 8 6.5H16C19.032 6.5 21.5 8.967 21.5 12C21.5 15.033 19.032 17.5 16 17.5ZM16 8.5C14.07 8.5 12.5 10.07 12.5 12C12.5 13.93 14.07 15.5 16 15.5C17.93 15.5 19.5 13.93 19.5 12C19.5 10.07 17.93 8.5 16 8.5ZM16 14.5C14.621 14.5 13.5 13.378 13.5 12C13.5 10.622 14.621 9.5 16 9.5C17.379 9.5 18.5 10.622 18.5 12C18.5 13.378 17.379 14.5 16 14.5Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const ToggleOnAlt = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M8 18h8a6 6 0 1 0 0-12H8a6 6 0 1 0 0 12" opacity={0.4} /><path fill="#25314c" d="M16 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6" /></svg>;
+export { ToggleOnAlt };

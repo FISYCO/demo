@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M19 5.5H5C2.71 5.5 1.5 6.71 1.5 9V15C1.5 17.29 2.71 18.5 5 18.5H19C21.29 18.5 22.5 17.29 22.5 15V9C22.5 6.71 21.29 5.5 19 5.5ZM21.5 15C21.5 16.729 20.729 17.5 19 17.5H5C3.271 17.5 2.5 16.729 2.5 15V9C2.5 7.271 3.271 6.5 5 6.5H19C20.729 6.5 21.5 7.271 21.5 9V15ZM9.5 8.5H6.5C5.229 8.5 4.5 9.229 4.5 10.5V13.5C4.5 14.771 5.229 15.5 6.5 15.5H9.5C10.771 15.5 11.5 14.771 11.5 13.5V10.5C11.5 9.229 10.771 8.5 9.5 8.5ZM10.5 13.5C10.5 14.22 10.22 14.5 9.5 14.5H6.5C5.78 14.5 5.5 14.22 5.5 13.5V10.5C5.5 9.78 5.78 9.5 6.5 9.5H9.5C10.22 9.5 10.5 9.78 10.5 10.5V13.5Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const ToggleOffRectangle = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M5 18h14q3 0 3-3V9q0-3-3-3H5Q2 6 2 9v6q0 3 3 3" opacity={0.4} /><path fill="#25314c" d="M6.5 15h3q1.5 0 1.5-1.5v-3Q11 9 9.5 9h-3Q5 9 5 10.5v3Q5 15 6.5 15" /></svg>;
+export { ToggleOffRectangle };
