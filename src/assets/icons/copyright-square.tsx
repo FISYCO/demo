@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CopyrightSquare = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity={0.4} /><path fill="#25314c" d="M12.14 16.25A4.255 4.255 0 0 1 7.89 12a4.255 4.255 0 0 1 4.25-4.25c1.387 0 2.687.682 3.478 1.823a.75.75 0 0 1-1.234.853 2.73 2.73 0 0 0-2.243-1.177 2.75 2.75 0 0 0-2.75 2.75 2.75 2.75 0 0 0 2.75 2.75c.895 0 1.733-.44 2.243-1.177a.75.75 0 0 1 1.234.853 4.23 4.23 0 0 1-3.478 1.825" /></svg>;
+export { CopyrightSquare };
