@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20.354 8.646L14.354 2.646C14.26 2.552 14.133 2.5 14 2.5H8C5.71 2.5 4.5 3.71 4.5 6V18C4.5 20.29 5.71 21.5 8 21.5H17C19.29 21.5 20.5 20.29 20.5 18V9C20.5 8.867 20.447 8.74 20.354 8.646ZM14.5 4.207L18.793 8.5H17C15.271 8.5 14.5 7.729 14.5 6V4.207ZM17 20.5H8C6.271 20.5 5.5 19.729 5.5 18V6C5.5 4.271 6.271 3.5 8 3.5H13.5V6C13.5 8.29 14.71 9.5 17 9.5H19.5V18C19.5 19.729 18.729 20.5 17 20.5ZM15.5 14C15.5 14.276 15.276 14.5 15 14.5H10C9.724 14.5 9.5 14.276 9.5 14C9.5 13.724 9.724 13.5 10 13.5H15C15.276 13.5 15.5 13.724 15.5 14Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const FileMinus = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17 9q-3 0-3-3V3H8Q5 3 5 6v12q0 3 3 3h9q3 0 3-3V9z" opacity={0.4} /><path fill="#25314c" d="M17 9h3l-6-6v3q0 3 3 3M15 14.75h-5a.75.75 0 0 1 0-1.5h5a.75.75 0 0 1 0 1.5" /></svg>;
+export { FileMinus };

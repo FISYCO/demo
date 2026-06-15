@@ -1,3 +1,4 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M19.5 2.5H4.5C3.229 2.5 2.5 3.229 2.5 4.5V8C2.5 8.276 2.724 8.5 3 8.5H3.5V18C3.5 20.29 4.71 21.5 7 21.5H17C19.29 21.5 20.5 20.29 20.5 18V8.5H21C21.276 8.5 21.5 8.276 21.5 8V4.5C21.5 3.229 20.771 2.5 19.5 2.5ZM19.5 18C19.5 19.729 18.729 20.5 17 20.5H7C5.271 20.5 4.5 19.729 4.5 18V8.5H19.5V18ZM20.5 7.5H3.5V4.5C3.5 3.78 3.78 3.5 4.5 3.5H19.5C20.22 3.5 20.5 3.78 20.5 4.5V7.5ZM9.5 12C9.5 11.724 9.724 11.5 10 11.5H14C14.276 11.5 14.5 11.724 14.5 12C14.5 12.276 14.276 12.5 14 12.5H10C9.724 12.5 9.5 12.276 9.5 12Z" fill="#25314C"/>
-</svg>
+import * as React from "react";
+import type { SVGProps } from "react";
+const Archive = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M4 8v10q0 3 3 3h10q3 0 3-3V8" opacity={0.4} /><path fill="#25314c" d="M3 8h18V4.5Q21 3 19.5 3h-15Q3 3 3 4.5zM14 12.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5" /></svg>;
+export { Archive };
