@@ -1,7 +1,249 @@
 export const tokens = {
-  "variables": {},
+  "variables": {
+    "0": {
+      "type": "float",
+      "valuesByMode": {
+        "11828:4": 0,
+        "11828:5": 4,
+        "11828:6": 8,
+        "11828:7": 0
+      }
+    },
+    "4": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 8,
+        "11090:5": 12,
+        "11828:8": 0,
+        "10800:21": 4
+      }
+    },
+    "8": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 12,
+        "11090:5": 16,
+        "11828:8": 4,
+        "10800:21": 8
+      }
+    },
+    "12": {
+      "type": "float",
+      "valuesByMode": {
+        "11828:4": 12,
+        "11828:5": 16,
+        "11828:6": 20,
+        "11828:7": 8
+      }
+    },
+    "16": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 20,
+        "11090:5": 24,
+        "11828:8": 12,
+        "10800:21": 16
+      }
+    },
+    "20": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 24,
+        "11090:5": 28,
+        "11828:8": 16,
+        "10800:21": 20
+      }
+    },
+    "24": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 28,
+        "11090:5": 32,
+        "11828:8": 20,
+        "10800:21": 24
+      }
+    },
+    "28": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 32,
+        "11090:5": 36,
+        "11828:8": 24,
+        "10800:21": 28
+      }
+    },
+    "32": {
+      "type": "float",
+      "valuesByMode": {
+        "11828:4": 32,
+        "11828:5": 36,
+        "11828:6": 40,
+        "11828:7": 28
+      }
+    },
+    "40": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 44,
+        "11090:5": 48,
+        "11828:8": 36,
+        "10800:21": 40
+      }
+    },
+    "48": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 52,
+        "11090:5": 56,
+        "11828:8": 44,
+        "10800:21": 48
+      }
+    },
+    "80": {
+      "type": "float",
+      "valuesByMode": {
+        "11828:4": 80,
+        "11828:5": 84,
+        "11828:6": 88,
+        "11828:7": 76
+      }
+    },
+    "allowed": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "允许",
+        "10800:23": "Allowed"
+      }
+    },
+    "button": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "按钮",
+        "10800:23": "Button"
+      }
+    },
+    "byewind": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "ByeWind",
+        "10800:23": "ByeWind"
+      }
+    },
+    "date": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "日期",
+        "10800:23": "Date"
+      }
+    },
+    "email": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "byewind@twitter.com",
+        "10800:23": "byewind@twitter.com"
+      }
+    },
+    "list-item": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "列表项",
+        "10800:23": "List Item"
+      }
+    },
+    "phone": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "+852 19850622",
+        "10800:23": "+852 19850622"
+      }
+    },
+    "pick-a-date": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "选择日期",
+        "10800:23": "Pick a date"
+      }
+    },
+    "select": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "选择",
+        "10800:23": "Select"
+      }
+    },
+    "send": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "发送",
+        "10800:23": "Send"
+      }
+    },
+    "send-a-message": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "发送消息...",
+        "10800:23": "Send a message..."
+      }
+    },
+    "sign-in-with-apple": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "苹果账号登录",
+        "10800:23": "Sign in with Apple"
+      }
+    },
+    "sign-in-with-facebook": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "脸书账号登录",
+        "10800:23": "Sign in with Facebook"
+      }
+    },
+    "sign-in-with-google": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "谷歌账号登录",
+        "10800:23": "Sign in with Google"
+      }
+    },
+    "snowui": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "SnowUI",
+        "10800:23": "SnowUI"
+      }
+    },
+    "tag": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "标签",
+        "10800:23": "Tag"
+      }
+    },
+    "text": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "文本",
+        "10800:23": "Text"
+      }
+    },
+    "title": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "标题",
+        "10800:23": "Title"
+      }
+    },
+    "tool-tips": {
+      "type": "string",
+      "valuesByMode": {
+        "10892:0": "工具提示",
+        "10800:23": "Tool Tips"
+      }
+    }
+  },
   "styles": {
-    "12-regular": {
+    "12-regular3": {
       "type": "text",
       "value": {
         "fontFamily": "Inter",
@@ -120,339 +362,43 @@ export const tokens = {
         "lineHeightPx": 78,
         "letterSpacing": 0
       }
-    },
-    "bg-blur-100": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "BACKGROUND_BLUR",
-          "radius": 100,
-          "visible": true
-        }
-      ]
-    },
-    "bg-blur-40": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "BACKGROUND_BLUR",
-          "radius": 40,
-          "visible": true
-        }
-      ]
-    },
-    "black": {
-      "5": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      },
-      "10": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      },
-      "20": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      },
-      "40": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      },
-      "80": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      },
-      "100": {
-        "type": "fill",
-        "value": "#1C1C1C"
-      }
-    },
-    "border-lighting": {
-      "type": "fill",
-      "value": {
-        "type": "GRADIENT_LINEAR",
-        "blendMode": "NORMAL",
-        "gradientStops": [
-          {
-            "color": {
-              "a": 0.4000000059604645,
-              "b": 1,
-              "g": 1,
-              "r": 1
-            },
-            "position": 0
-          },
-          {
-            "color": {
-              "a": 0.00009999999747378752,
-              "b": 1,
-              "g": 1,
-              "r": 1
-            },
-            "position": 0.4056868255138397
-          },
-          {
-            "color": {
-              "a": 0.00009999999747378752,
-              "b": 1,
-              "g": 1,
-              "r": 1
-            },
-            "position": 0.5743719935417175
-          },
-          {
-            "color": {
-              "a": 0.1000000014901161,
-              "b": 1,
-              "g": 1,
-              "r": 1
-            },
-            "position": 1
-          }
-        ],
-        "gradientHandlePositions": [
-          {
-            "x": 0.3228346449796142,
-            "y": -0.03571428749518167
-          },
-          {
-            "x": 0.1483050791861681,
-            "y": 1.166666640400183
-          },
-          {
-            "x": 0.2014480527390139,
-            "y": 0.02112331869175831
-          }
-        ]
-      }
-    },
-    "design-notes": {
-      "type": "fill",
-      "value": "#9747FF"
-    },
-    "drop-shadow": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "DROP_SHADOW",
-          "color": {
-            "a": 0.1000000014901161,
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "offset": {
-            "x": 0,
-            "y": 2
-          },
-          "radius": 4,
-          "visible": true,
-          "blendMode": "NORMAL",
-          "showShadowBehindNode": false
-        }
-      ]
-    },
-    "focus": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "DROP_SHADOW",
-          "color": {
-            "a": 0.05000000074505806,
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "offset": {
-            "x": 0,
-            "y": 0
-          },
-          "radius": 0,
-          "spread": 4,
-          "visible": true,
-          "blendMode": "NORMAL",
-          "showShadowBehindNode": false
-        }
-      ]
-    },
-    "glow": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "DROP_SHADOW",
-          "color": {
-            "a": 0.2000000029802322,
-            "b": 1,
-            "g": 1,
-            "r": 1
-          },
-          "offset": {
-            "x": 0,
-            "y": 0
-          },
-          "radius": 12,
-          "spread": 6,
-          "visible": true,
-          "blendMode": "LUMINOSITY",
-          "showShadowBehindNode": false
-        },
-        {
-          "type": "DROP_SHADOW",
-          "color": {
-            "a": 0.4000000059604645,
-            "b": 0.3686274588108063,
-            "g": 0.3686274588108063,
-            "r": 0.3686274588108063
-          },
-          "offset": {
-            "x": 0,
-            "y": 0
-          },
-          "radius": 12,
-          "spread": 6,
-          "visible": true,
-          "blendMode": "COLOR_DODGE",
-          "showShadowBehindNode": false
-        }
-      ]
-    },
-    "inner-shadow": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 0.1000000014901161,
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "offset": {
-            "x": 1,
-            "y": 1.5
-          },
-          "radius": 4,
-          "visible": true,
-          "blendMode": "NORMAL"
-        },
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 0.07999999821186066,
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "offset": {
-            "x": 1,
-            "y": 1.5
-          },
-          "radius": 4,
-          "visible": true,
-          "blendMode": "OVERLAY"
-        },
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 0.25,
-            "b": 1,
-            "g": 1,
-            "r": 1
-          },
-          "offset": {
-            "x": 0,
-            "y": -0.5
-          },
-          "radius": 1,
-          "visible": true,
-          "blendMode": "NORMAL"
-        },
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 0.300000011920929,
-            "b": 1,
-            "g": 1,
-            "r": 1
-          },
-          "offset": {
-            "x": 0,
-            "y": -0.5
-          },
-          "radius": 1,
-          "visible": true,
-          "blendMode": "OVERLAY"
-        }
-      ]
-    },
-    "logo-hover": {
-      "type": "effect",
-      "value": [
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 0.2000000029802322,
-            "b": 1,
-            "g": 1,
-            "r": 1
-          },
-          "offset": {
-            "x": 0,
-            "y": -20
-          },
-          "radius": 20,
-          "visible": true,
-          "blendMode": "LINEAR_DODGE"
-        },
-        {
-          "type": "INNER_SHADOW",
-          "color": {
-            "a": 1,
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "offset": {
-            "x": 0,
-            "y": 20
-          },
-          "radius": 20,
-          "visible": true,
-          "blendMode": "OVERLAY"
-        }
-      ]
-    },
-    "white": {
-      "5": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      },
-      "10": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      },
-      "20": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      },
-      "40": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      },
-      "80": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      },
-      "100": {
-        "type": "fill",
-        "value": "#FFFFFF"
-      }
     }
   }
 } as const;
 
 export const tokenValuesByPath = {
-  "styles.12-regular": tokens.styles["12-regular"],
+  "variables.0": tokens.variables["0"],
+  "variables.4": tokens.variables["4"],
+  "variables.8": tokens.variables["8"],
+  "variables.12": tokens.variables["12"],
+  "variables.16": tokens.variables["16"],
+  "variables.20": tokens.variables["20"],
+  "variables.24": tokens.variables["24"],
+  "variables.28": tokens.variables["28"],
+  "variables.32": tokens.variables["32"],
+  "variables.40": tokens.variables["40"],
+  "variables.48": tokens.variables["48"],
+  "variables.80": tokens.variables["80"],
+  "variables.allowed": tokens.variables.allowed,
+  "variables.button": tokens.variables.button,
+  "variables.byewind": tokens.variables.byewind,
+  "variables.date": tokens.variables.date,
+  "variables.email": tokens.variables.email,
+  "variables.list-item": tokens.variables["list-item"],
+  "variables.phone": tokens.variables.phone,
+  "variables.pick-a-date": tokens.variables["pick-a-date"],
+  "variables.select": tokens.variables.select,
+  "variables.send": tokens.variables.send,
+  "variables.send-a-message": tokens.variables["send-a-message"],
+  "variables.sign-in-with-apple": tokens.variables["sign-in-with-apple"],
+  "variables.sign-in-with-facebook": tokens.variables["sign-in-with-facebook"],
+  "variables.sign-in-with-google": tokens.variables["sign-in-with-google"],
+  "variables.snowui": tokens.variables.snowui,
+  "variables.tag": tokens.variables.tag,
+  "variables.text": tokens.variables.text,
+  "variables.title": tokens.variables.title,
+  "variables.tool-tips": tokens.variables["tool-tips"],
+  "styles.12-regular3": tokens.styles["12-regular3"],
   "styles.12-semibold": tokens.styles["12-semibold"],
   "styles.14-regular": tokens.styles["14-regular"],
   "styles.14-semibold": tokens.styles["14-semibold"],
@@ -464,31 +410,41 @@ export const tokenValuesByPath = {
   "styles.48-semibold": tokens.styles["48-semibold"],
   "styles.64-regular": tokens.styles["64-regular"],
   "styles.64-semibold": tokens.styles["64-semibold"],
-  "styles.bg-blur-100": tokens.styles["bg-blur-100"],
-  "styles.bg-blur-40": tokens.styles["bg-blur-40"],
-  "styles.black.5": tokens.styles.black["5"],
-  "styles.black.10": tokens.styles.black["10"],
-  "styles.black.20": tokens.styles.black["20"],
-  "styles.black.40": tokens.styles.black["40"],
-  "styles.black.80": tokens.styles.black["80"],
-  "styles.black.100": tokens.styles.black["100"],
-  "styles.border-lighting": tokens.styles["border-lighting"],
-  "styles.design-notes": tokens.styles["design-notes"],
-  "styles.drop-shadow": tokens.styles["drop-shadow"],
-  "styles.focus": tokens.styles.focus,
-  "styles.glow": tokens.styles.glow,
-  "styles.inner-shadow": tokens.styles["inner-shadow"],
-  "styles.logo-hover": tokens.styles["logo-hover"],
-  "styles.white.5": tokens.styles.white["5"],
-  "styles.white.10": tokens.styles.white["10"],
-  "styles.white.20": tokens.styles.white["20"],
-  "styles.white.40": tokens.styles.white["40"],
-  "styles.white.80": tokens.styles.white["80"],
-  "styles.white.100": tokens.styles.white["100"],
 } as const;
 
 export const tokenPaths = [
-  "styles.12-regular",
+  "variables.0",
+  "variables.4",
+  "variables.8",
+  "variables.12",
+  "variables.16",
+  "variables.20",
+  "variables.24",
+  "variables.28",
+  "variables.32",
+  "variables.40",
+  "variables.48",
+  "variables.80",
+  "variables.allowed",
+  "variables.button",
+  "variables.byewind",
+  "variables.date",
+  "variables.email",
+  "variables.list-item",
+  "variables.phone",
+  "variables.pick-a-date",
+  "variables.select",
+  "variables.send",
+  "variables.send-a-message",
+  "variables.sign-in-with-apple",
+  "variables.sign-in-with-facebook",
+  "variables.sign-in-with-google",
+  "variables.snowui",
+  "variables.tag",
+  "variables.text",
+  "variables.title",
+  "variables.tool-tips",
+  "styles.12-regular3",
   "styles.12-semibold",
   "styles.14-regular",
   "styles.14-semibold",
@@ -500,27 +456,6 @@ export const tokenPaths = [
   "styles.48-semibold",
   "styles.64-regular",
   "styles.64-semibold",
-  "styles.bg-blur-100",
-  "styles.bg-blur-40",
-  "styles.black.5",
-  "styles.black.10",
-  "styles.black.20",
-  "styles.black.40",
-  "styles.black.80",
-  "styles.black.100",
-  "styles.border-lighting",
-  "styles.design-notes",
-  "styles.drop-shadow",
-  "styles.focus",
-  "styles.glow",
-  "styles.inner-shadow",
-  "styles.logo-hover",
-  "styles.white.5",
-  "styles.white.10",
-  "styles.white.20",
-  "styles.white.40",
-  "styles.white.80",
-  "styles.white.100",
 ] as const;
 
 export type Tokens = typeof tokens;
