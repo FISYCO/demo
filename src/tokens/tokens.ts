@@ -12,10 +12,10 @@ export const tokens = {
     "4": {
       "type": "float",
       "valuesByMode": {
-        "11090:4": 8,
-        "11090:5": 12,
-        "11828:8": 0,
-        "10800:21": 4
+        "11828:4": 4,
+        "11828:5": 8,
+        "11828:6": 12,
+        "11828:7": 0
       }
     },
     "8": {
@@ -57,10 +57,10 @@ export const tokens = {
     "24": {
       "type": "float",
       "valuesByMode": {
-        "11090:4": 28,
-        "11090:5": 32,
-        "11828:8": 20,
-        "10800:21": 24
+        "11828:4": 24,
+        "11828:5": 28,
+        "11828:6": 32,
+        "11828:7": 20
       }
     },
     "28": {
@@ -108,137 +108,292 @@ export const tokens = {
         "11828:7": 76
       }
     },
-    "allowed": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "允许",
-        "10800:23": "Allowed"
+    "black": {
+      "0": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.05)",
+          "10788:1": "rgba(255, 255, 255, 0.1)",
+          "19302:0": "rgba(46, 52, 62, 0.05)",
+          "19373:0": "rgba(255, 255, 255, 0.1)"
+        }
+      },
+      "5": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.05)",
+          "10788:1": "rgba(255, 255, 255, 0.1)",
+          "19302:0": "rgba(46, 52, 62, 0.05)",
+          "19373:0": "rgba(255, 255, 255, 0.1)"
+        }
+      },
+      "10": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.1)",
+          "10788:1": "rgba(255, 255, 255, 0.1)",
+          "19302:0": "rgba(46, 52, 62, 0.1)",
+          "19373:0": "rgba(255, 255, 255, 0.1)"
+        }
+      },
+      "20": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.2)",
+          "10788:1": "rgba(255, 255, 255, 0.2)",
+          "19302:0": "rgba(46, 52, 62, 0.2)",
+          "19373:0": "rgba(255, 255, 255, 0.2)"
+        }
+      },
+      "40": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.4)",
+          "10788:1": "rgba(255, 255, 255, 0.4)",
+          "19302:0": "rgba(46, 52, 62, 0.4)",
+          "19373:0": "rgba(255, 255, 255, 0.4)"
+        }
+      },
+      "80": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.8)",
+          "10788:1": "rgba(255, 255, 255, 0.8)",
+          "19302:0": "rgba(46, 52, 62, 0.8)",
+          "19373:0": "rgba(255, 255, 255, 0.8)"
+        }
+      },
+      "100": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#1C1C1C",
+          "10788:1": "#FFFFFF",
+          "19302:0": "#2E343E",
+          "19373:0": "#FFFFFF"
+        }
       }
     },
-    "button": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "按钮",
-        "10800:23": "Button"
+    "logo-color": {
+      "logo": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#7094F4",
+          "10788:1": "#7094F4",
+          "19302:0": {
+            "$alias": "VariableID:10790:1273"
+          },
+          "19373:0": {
+            "$alias": "VariableID:10790:1273"
+          }
+        }
+      },
+      "logo-2": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#4F507F",
+          "10788:1": "#EDEDFF",
+          "19302:0": "#4F507F",
+          "19373:0": "#EDEDFF"
+        }
       }
     },
-    "byewind": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "ByeWind",
-        "10800:23": "ByeWind"
+    "primary": {
+      "background": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#FFFFFF",
+          "10788:1": "#1C1C1C",
+          "19302:0": "#F7F7F9",
+          "19373:0": "#1C1C1C"
+        }
+      },
+      "blue": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#E3F5FF",
+          "10788:1": "#E3F5FF",
+          "19302:0": "#E3F5FF",
+          "19373:0": "#E3F5FF"
+        }
+      },
+      "brand": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#1C1C1C",
+          "10788:1": "#C6C7F8",
+          "19302:0": {
+            "$alias": "VariableID:11033:14852"
+          },
+          "19373:0": {
+            "$alias": "VariableID:11033:14852"
+          }
+        }
+      },
+      "light": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#F7F9FB",
+          "10788:1": "rgba(255, 255, 255, 0.05)",
+          "19302:0": "#FFFFFF",
+          "19373:0": "rgba(255, 255, 255, 0.05)"
+        }
+      },
+      "purple": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#E5ECF6",
+          "10788:1": "#E5ECF6",
+          "19302:0": "#E5ECF6",
+          "19373:0": "#E5ECF6"
+        }
+      },
+      "purple-50": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(229, 236, 246, 0.5)",
+          "10788:1": "rgba(255, 255, 255, 0.05)",
+          "19302:0": "rgba(229, 236, 246, 0.5)",
+          "19373:0": "rgba(255, 255, 255, 0.05)"
+        }
       }
     },
-    "date": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "日期",
-        "10800:23": "Date"
+    "secondary": {
+      "blue": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#B1E3FF",
+          "10788:1": "#B1E3FF",
+          "19302:0": "#1886FE",
+          "19373:0": "#1886FE"
+        }
+      },
+      "cyan": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#A8C5DA",
+          "10788:1": "#A8C5DA",
+          "19302:0": "#32ADE6",
+          "19373:0": "#32ADE6"
+        }
+      },
+      "green": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#A1E3CB",
+          "10788:1": "#A1E3CB",
+          "19302:0": "#34C759",
+          "19373:0": "#34C759"
+        }
+      },
+      "indigo": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#95A4FC",
+          "10788:1": "#95A4FC",
+          "19302:0": "#5856D6",
+          "19373:0": "#5856D6"
+        }
+      },
+      "mint": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#BAEDBD",
+          "10788:1": "#BAEDBD",
+          "19302:0": "#00C7BE",
+          "19373:0": "#00C7BE"
+        }
+      },
+      "orange": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#FFCB83",
+          "10788:1": "#FFCB83",
+          "19302:0": "#FF9500",
+          "19373:0": "#FF9500"
+        }
+      },
+      "purple": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#C6C7F8",
+          "10788:1": "#C6C7F8",
+          "19302:0": "#AF52DE",
+          "19373:0": "#AF52DE"
+        }
+      },
+      "red": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#FF4747",
+          "10788:1": "#FF4747",
+          "19302:0": "#FF3B30",
+          "19373:0": "#FF3B30"
+        }
+      },
+      "yellow": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#FFE999",
+          "10788:1": "#FFE999",
+          "19302:0": "#FFCC00",
+          "19373:0": "#FFCC00"
+        }
       }
     },
-    "email": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "byewind@twitter.com",
-        "10800:23": "byewind@twitter.com"
-      }
-    },
-    "list-item": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "列表项",
-        "10800:23": "List Item"
-      }
-    },
-    "phone": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "+852 19850622",
-        "10800:23": "+852 19850622"
-      }
-    },
-    "pick-a-date": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "选择日期",
-        "10800:23": "Pick a date"
-      }
-    },
-    "select": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "选择",
-        "10800:23": "Select"
-      }
-    },
-    "send": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "发送",
-        "10800:23": "Send"
-      }
-    },
-    "send-a-message": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "发送消息...",
-        "10800:23": "Send a message..."
-      }
-    },
-    "sign-in-with-apple": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "苹果账号登录",
-        "10800:23": "Sign in with Apple"
-      }
-    },
-    "sign-in-with-facebook": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "脸书账号登录",
-        "10800:23": "Sign in with Facebook"
-      }
-    },
-    "sign-in-with-google": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "谷歌账号登录",
-        "10800:23": "Sign in with Google"
-      }
-    },
-    "snowui": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "SnowUI",
-        "10800:23": "SnowUI"
-      }
-    },
-    "tag": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "标签",
-        "10800:23": "Tag"
-      }
-    },
-    "text": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "文本",
-        "10800:23": "Text"
-      }
-    },
-    "title": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "标题",
-        "10800:23": "Title"
-      }
-    },
-    "tool-tips": {
-      "type": "string",
-      "valuesByMode": {
-        "10892:0": "工具提示",
-        "10800:23": "Tool Tips"
+    "white": {
+      "5": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.05)",
+          "10788:1": "rgba(28, 28, 28, 0.05)",
+          "19302:0": "rgba(255, 255, 255, 0.05)",
+          "19373:0": "rgba(28, 28, 28, 0.05)"
+        }
+      },
+      "10": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.1)",
+          "10788:1": "rgba(28, 28, 28, 0.1)",
+          "19302:0": "rgba(255, 255, 255, 0.1)",
+          "19373:0": "rgba(28, 28, 28, 0.1)"
+        }
+      },
+      "20": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.2)",
+          "10788:1": "rgba(28, 28, 28, 0.2)",
+          "19302:0": "rgba(255, 255, 255, 0.2)",
+          "19373:0": "rgba(28, 28, 28, 0.2)"
+        }
+      },
+      "40": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.4)",
+          "10788:1": "rgba(28, 28, 28, 0.4)",
+          "19302:0": "rgba(255, 255, 255, 0.4)",
+          "19373:0": "rgba(28, 28, 28, 0.4)"
+        }
+      },
+      "80": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.8)",
+          "10788:1": "rgba(28, 28, 28, 0.8)",
+          "19302:0": "rgba(255, 255, 255, 0.8)",
+          "19373:0": "rgba(28, 28, 28, 0.8)"
+        }
+      },
+      "100": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "#FFFFFF",
+          "10788:1": "#1C1C1C",
+          "19302:0": "#FFFFFF",
+          "19373:0": "#1C1C1C"
+        }
       }
     }
   },
@@ -379,25 +534,36 @@ export const tokenValuesByPath = {
   "variables.40": tokens.variables["40"],
   "variables.48": tokens.variables["48"],
   "variables.80": tokens.variables["80"],
-  "variables.allowed": tokens.variables.allowed,
-  "variables.button": tokens.variables.button,
-  "variables.byewind": tokens.variables.byewind,
-  "variables.date": tokens.variables.date,
-  "variables.email": tokens.variables.email,
-  "variables.list-item": tokens.variables["list-item"],
-  "variables.phone": tokens.variables.phone,
-  "variables.pick-a-date": tokens.variables["pick-a-date"],
-  "variables.select": tokens.variables.select,
-  "variables.send": tokens.variables.send,
-  "variables.send-a-message": tokens.variables["send-a-message"],
-  "variables.sign-in-with-apple": tokens.variables["sign-in-with-apple"],
-  "variables.sign-in-with-facebook": tokens.variables["sign-in-with-facebook"],
-  "variables.sign-in-with-google": tokens.variables["sign-in-with-google"],
-  "variables.snowui": tokens.variables.snowui,
-  "variables.tag": tokens.variables.tag,
-  "variables.text": tokens.variables.text,
-  "variables.title": tokens.variables.title,
-  "variables.tool-tips": tokens.variables["tool-tips"],
+  "variables.black.0": tokens.variables.black["0"],
+  "variables.black.5": tokens.variables.black["5"],
+  "variables.black.10": tokens.variables.black["10"],
+  "variables.black.20": tokens.variables.black["20"],
+  "variables.black.40": tokens.variables.black["40"],
+  "variables.black.80": tokens.variables.black["80"],
+  "variables.black.100": tokens.variables.black["100"],
+  "variables.logo-color.logo": tokens.variables["logo-color"].logo,
+  "variables.logo-color.logo-2": tokens.variables["logo-color"]["logo-2"],
+  "variables.primary.background": tokens.variables.primary.background,
+  "variables.primary.blue": tokens.variables.primary.blue,
+  "variables.primary.brand": tokens.variables.primary.brand,
+  "variables.primary.light": tokens.variables.primary.light,
+  "variables.primary.purple": tokens.variables.primary.purple,
+  "variables.primary.purple-50": tokens.variables.primary["purple-50"],
+  "variables.secondary.blue": tokens.variables.secondary.blue,
+  "variables.secondary.cyan": tokens.variables.secondary.cyan,
+  "variables.secondary.green": tokens.variables.secondary.green,
+  "variables.secondary.indigo": tokens.variables.secondary.indigo,
+  "variables.secondary.mint": tokens.variables.secondary.mint,
+  "variables.secondary.orange": tokens.variables.secondary.orange,
+  "variables.secondary.purple": tokens.variables.secondary.purple,
+  "variables.secondary.red": tokens.variables.secondary.red,
+  "variables.secondary.yellow": tokens.variables.secondary.yellow,
+  "variables.white.5": tokens.variables.white["5"],
+  "variables.white.10": tokens.variables.white["10"],
+  "variables.white.20": tokens.variables.white["20"],
+  "variables.white.40": tokens.variables.white["40"],
+  "variables.white.80": tokens.variables.white["80"],
+  "variables.white.100": tokens.variables.white["100"],
   "styles.12-regular3": tokens.styles["12-regular3"],
   "styles.12-semibold": tokens.styles["12-semibold"],
   "styles.14-regular": tokens.styles["14-regular"],
@@ -425,25 +591,36 @@ export const tokenPaths = [
   "variables.40",
   "variables.48",
   "variables.80",
-  "variables.allowed",
-  "variables.button",
-  "variables.byewind",
-  "variables.date",
-  "variables.email",
-  "variables.list-item",
-  "variables.phone",
-  "variables.pick-a-date",
-  "variables.select",
-  "variables.send",
-  "variables.send-a-message",
-  "variables.sign-in-with-apple",
-  "variables.sign-in-with-facebook",
-  "variables.sign-in-with-google",
-  "variables.snowui",
-  "variables.tag",
-  "variables.text",
-  "variables.title",
-  "variables.tool-tips",
+  "variables.black.0",
+  "variables.black.5",
+  "variables.black.10",
+  "variables.black.20",
+  "variables.black.40",
+  "variables.black.80",
+  "variables.black.100",
+  "variables.logo-color.logo",
+  "variables.logo-color.logo-2",
+  "variables.primary.background",
+  "variables.primary.blue",
+  "variables.primary.brand",
+  "variables.primary.light",
+  "variables.primary.purple",
+  "variables.primary.purple-50",
+  "variables.secondary.blue",
+  "variables.secondary.cyan",
+  "variables.secondary.green",
+  "variables.secondary.indigo",
+  "variables.secondary.mint",
+  "variables.secondary.orange",
+  "variables.secondary.purple",
+  "variables.secondary.red",
+  "variables.secondary.yellow",
+  "variables.white.5",
+  "variables.white.10",
+  "variables.white.20",
+  "variables.white.40",
+  "variables.white.80",
+  "variables.white.100",
   "styles.12-regular3",
   "styles.12-semibold",
   "styles.14-regular",
