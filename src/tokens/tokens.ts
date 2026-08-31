@@ -12,55 +12,55 @@ export const tokens = {
     "4": {
       "type": "float",
       "valuesByMode": {
-        "11828:4": 4,
-        "11828:5": 8,
-        "11828:6": 12,
-        "11828:7": 0
+        "11090:4": 8,
+        "11090:5": 12,
+        "11828:8": 0,
+        "10800:21": 4
       }
     },
     "8": {
       "type": "float",
       "valuesByMode": {
-        "11090:4": 12,
-        "11090:5": 16,
-        "11828:8": 4,
-        "10800:21": 8
+        "11828:4": 8,
+        "11828:5": 12,
+        "11828:6": 16,
+        "11828:7": 4
       }
     },
     "12": {
       "type": "float",
       "valuesByMode": {
-        "11828:4": 12,
-        "11828:5": 16,
-        "11828:6": 20,
-        "11828:7": 8
+        "11090:4": 16,
+        "11090:5": 20,
+        "11828:8": 8,
+        "10800:21": 12
       }
     },
     "16": {
       "type": "float",
       "valuesByMode": {
-        "11090:4": 20,
-        "11090:5": 24,
-        "11828:8": 12,
-        "10800:21": 16
+        "11828:4": 16,
+        "11828:5": 20,
+        "11828:6": 24,
+        "11828:7": 12
       }
     },
     "20": {
       "type": "float",
       "valuesByMode": {
-        "11090:4": 24,
-        "11090:5": 28,
-        "11828:8": 16,
-        "10800:21": 20
+        "11828:4": 20,
+        "11828:5": 24,
+        "11828:6": 28,
+        "11828:7": 16
       }
     },
     "24": {
       "type": "float",
       "valuesByMode": {
-        "11828:4": 24,
-        "11828:5": 28,
-        "11828:6": 32,
-        "11828:7": 20
+        "11090:4": 28,
+        "11090:5": 32,
+        "11828:8": 20,
+        "10800:21": 24
       }
     },
     "28": {
@@ -108,16 +108,16 @@ export const tokens = {
         "11828:7": 76
       }
     },
+    "48-2": {
+      "type": "float",
+      "valuesByMode": {
+        "11090:4": 52,
+        "11090:5": 56,
+        "11828:8": 44,
+        "10800:21": 48
+      }
+    },
     "black": {
-      "0": {
-        "type": "color",
-        "valuesByMode": {
-          "10771:0": "rgba(28, 28, 28, 0.05)",
-          "10788:1": "rgba(255, 255, 255, 0.1)",
-          "19302:0": "rgba(46, 52, 62, 0.05)",
-          "19373:0": "rgba(255, 255, 255, 0.1)"
-        }
-      },
       "5": {
         "type": "color",
         "valuesByMode": {
@@ -170,6 +170,15 @@ export const tokens = {
           "10788:1": "#FFFFFF",
           "19302:0": "#2E343E",
           "19373:0": "#FFFFFF"
+        }
+      },
+      "5-2": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(28, 28, 28, 0.05)",
+          "10788:1": "rgba(255, 255, 255, 0.1)",
+          "19302:0": "rgba(46, 52, 62, 0.05)",
+          "19373:0": "rgba(255, 255, 255, 0.1)"
         }
       }
     },
@@ -394,11 +403,20 @@ export const tokens = {
           "19302:0": "#FFFFFF",
           "19373:0": "#1C1C1C"
         }
+      },
+      "5-2": {
+        "type": "color",
+        "valuesByMode": {
+          "10771:0": "rgba(255, 255, 255, 0.05)",
+          "10788:1": "rgba(28, 28, 28, 0.05)",
+          "19302:0": "rgba(255, 255, 255, 0.05)",
+          "19373:0": "rgba(28, 28, 28, 0.05)"
+        }
       }
     }
   },
   "styles": {
-    "12-regular3": {
+    "12-regular": {
       "type": "text",
       "value": {
         "fontFamily": "Inter",
@@ -534,13 +552,14 @@ export const tokenValuesByPath = {
   "variables.40": tokens.variables["40"],
   "variables.48": tokens.variables["48"],
   "variables.80": tokens.variables["80"],
-  "variables.black.0": tokens.variables.black["0"],
+  "variables.48-2": tokens.variables["48-2"],
   "variables.black.5": tokens.variables.black["5"],
   "variables.black.10": tokens.variables.black["10"],
   "variables.black.20": tokens.variables.black["20"],
   "variables.black.40": tokens.variables.black["40"],
   "variables.black.80": tokens.variables.black["80"],
   "variables.black.100": tokens.variables.black["100"],
+  "variables.black.5-2": tokens.variables.black["5-2"],
   "variables.logo-color.logo": tokens.variables["logo-color"].logo,
   "variables.logo-color.logo-2": tokens.variables["logo-color"]["logo-2"],
   "variables.primary.background": tokens.variables.primary.background,
@@ -564,7 +583,8 @@ export const tokenValuesByPath = {
   "variables.white.40": tokens.variables.white["40"],
   "variables.white.80": tokens.variables.white["80"],
   "variables.white.100": tokens.variables.white["100"],
-  "styles.12-regular3": tokens.styles["12-regular3"],
+  "variables.white.5-2": tokens.variables.white["5-2"],
+  "styles.12-regular": tokens.styles["12-regular"],
   "styles.12-semibold": tokens.styles["12-semibold"],
   "styles.14-regular": tokens.styles["14-regular"],
   "styles.14-semibold": tokens.styles["14-semibold"],
@@ -591,13 +611,14 @@ export const tokenPaths = [
   "variables.40",
   "variables.48",
   "variables.80",
-  "variables.black.0",
+  "variables.48-2",
   "variables.black.5",
   "variables.black.10",
   "variables.black.20",
   "variables.black.40",
   "variables.black.80",
   "variables.black.100",
+  "variables.black.5-2",
   "variables.logo-color.logo",
   "variables.logo-color.logo-2",
   "variables.primary.background",
@@ -621,7 +642,8 @@ export const tokenPaths = [
   "variables.white.40",
   "variables.white.80",
   "variables.white.100",
-  "styles.12-regular3",
+  "variables.white.5-2",
+  "styles.12-regular",
   "styles.12-semibold",
   "styles.14-regular",
   "styles.14-semibold",
