@@ -1,0 +1,11 @@
+{
+  "name": "fisyco-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Демо-репозиторий FISYCO: дизайн-система в ui-kit и продукт, который её применяет.",
+  "workspaces": ["ui-kit", "apps/web"],
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

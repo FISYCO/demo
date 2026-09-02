@@ -1,0 +1,8 @@
+{
+  "name": "@demo/ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Дизайн-система демо-проекта: то, что библиотекарь читает и сверяет с макетом.",
+  "main": "index.ts",
+  "types": "index.ts"
+}

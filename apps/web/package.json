@@ -1,0 +1,11 @@
+{
+  "name": "@demo/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Продукт, который применяет дизайн-систему.",
+  "dependencies": {
+    "@demo/ui": "1.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}
