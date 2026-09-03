@@ -11,8 +11,8 @@ import { color, fontSize, radius, spacing } from "./tokens";
  */
 
 export type BtnStyle = "primary" | "secondary" | "transparent";
-export type BtnSize = "sm" | "md" | "lg";
-export type BtnStatus = "default" | "hover" | "disabled";
+export type BtnSize = "xs" | "sm" | "md" | "lg";
+export type BtnStatus = "default" | "hover" | "focus" | "disabled";
 
 export interface BtnProps {
   /** Внешний вид: заливка, обводка или прозрачная. */
@@ -27,12 +27,13 @@ export interface BtnProps {
 }
 
 const PADDING: Record<BtnSize, string> = {
+  xs: `${spacing.xs}px ${spacing.sm}px`,
   sm: `${spacing.xs}px ${spacing.md}px`,
   md: `${spacing.sm}px ${spacing.lg}px`,
   lg: `${spacing.md}px ${spacing.xl}px`,
 };
 
-const HEIGHT: Record<BtnSize, number> = { sm: 28, md: 36, lg: 44 };
+const HEIGHT: Record<BtnSize, number> = { xs: 24, sm: 28, md: 36, lg: 44 };
 
 const SURFACE: Record<BtnStyle, CSSProperties> = {
   primary: { background: color.brandSolid, color: color.surface, border: "1px solid transparent" },
@@ -46,7 +47,7 @@ export function Btn({ style = "primary", size = "md", status = "default", disabl
     height: HEIGHT[size],
     padding: PADDING[size],
     borderRadius: radius.md,
-    fontSize: fontSize[size === "lg" ? "lg" : size === "sm" ? "sm" : "md"],
+    fontSize: fontSize[size === "lg" ? "lg" : size === "sm" ? "sm" : size === "xs" ? "xs" : "md"],
     fontWeight: 500,
     cursor: disabled || status === "disabled" ? "not-allowed" : "pointer",
     opacity: disabled || status === "disabled" ? 0.5 : 1,
