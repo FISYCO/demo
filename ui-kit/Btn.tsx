@@ -27,13 +27,13 @@ export interface BtnProps {
 }
 
 const PADDING: Record<BtnSize, string> = {
-  xs: "4px 8px",
+  xs: `${spacing.xs}px ${spacing.sm}px`,
   sm: `${spacing.xs}px ${spacing.md}px`,
   md: `${spacing.sm}px ${spacing.lg}px`,
   lg: `${spacing.md}px ${spacing.xl}px`,
 };
 
-const HEIGHT: Record<BtnSize, number> = { xs: 28, sm: 28, md: 36, lg: 44 };
+const HEIGHT: Record<BtnSize, number> = { xs: 24, sm: 28, md: 36, lg: 44 };
 
 const SURFACE: Record<BtnStyle, CSSProperties> = {
   primary: { background: color.brandSolid, color: color.surface, border: "1px solid transparent" },
@@ -41,13 +41,13 @@ const SURFACE: Record<BtnStyle, CSSProperties> = {
   transparent: { background: "transparent", color: color.brandSolid, border: "1px solid transparent" },
 };
 
-export function Btn({ style = "primary", size = "md", status = "default", disabled, onClick, children = "Добавить" }: BtnProps) {
+export function Btn({ style = "primary", size = "md", status = "default", disabled, onClick, children }: BtnProps) {
   const base: CSSProperties = {
     ...SURFACE[style],
     height: HEIGHT[size],
     padding: PADDING[size],
     borderRadius: radius.md,
-    fontSize: fontSize[size === "lg" ? "lg" : size === "sm" ? "sm" : "md"],
+    fontSize: fontSize[size === "lg" ? "lg" : size === "sm" ? "sm" : size === "xs" ? "xs" : "md"],
     fontWeight: 500,
     cursor: disabled || status === "disabled" ? "not-allowed" : "pointer",
     opacity: disabled || status === "disabled" ? 0.5 : 1,
@@ -55,15 +55,6 @@ export function Btn({ style = "primary", size = "md", status = "default", disabl
     alignItems: "center",
     gap: spacing.sm,
   };
-
-  if (size === "xs") {
-    base.width = 133;
-    base.borderRadius = 9999;
-    base.fontSize = 14;
-    base.lineHeight = "18px";
-    base.fontWeight = 400;
-    if (style === "primary") base.background = "#000000";
-  }
 
   if (status === "hover" && style === "primary") base.background = color.brandSolidHover;
 
