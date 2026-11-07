@@ -18,7 +18,7 @@ export interface TableRootProps extends Omit<HTMLChakraProps<"table">, "interact
   stickyHeader?: boolean;
   striped?: boolean;
   showColumnBorder?: boolean;
-  variant?: "line" | "outline";
+  variant?: "line" | "outline" | "subtle";
   size?: "sm" | "md" | "lg";
 }
 
