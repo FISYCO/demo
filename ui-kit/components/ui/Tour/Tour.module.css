@@ -1,0 +1,121 @@
+/* Structural styles only — colors/typography handled by Chakra components */
+
+.positioner {
+  --z-index: 0;
+
+  &[data-type="dialog"] {
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--z-index);
+  }
+
+  &[data-type="floating"] {
+    position: fixed;
+    z-index: var(--z-index);
+
+    &[data-placement*="bottom"] {
+      bottom: 24px;
+    }
+
+    &[data-placement*="top"] {
+      top: 24px;
+    }
+
+    &[data-placement*="end"] {
+      inset-inline-end: 24px;
+    }
+
+    &[data-placement*="start"] {
+      inset-inline-start: 24px;
+    }
+  }
+}
+
+.content {
+  --arrow-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  outline: 0;
+  width: 320px;
+  position: relative;
+  /* design-tokens-allow: drop-shadow не берёт токены темы — тень одинаково мягкая в обеих */
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+
+  &[data-state="open"] {
+    animation: scale-fade-in 0.15s ease-out forwards;
+  }
+
+  &[data-state="closed"] {
+    animation: scale-fade-out 0.1s ease-in forwards;
+  }
+
+  &[data-type="dialog"] {
+    width: 400px;
+  }
+
+  &[data-type="floating"] {
+    width: 360px;
+  }
+}
+
+.backdrop {
+  &[data-state="open"] {
+    animation: fade-in 0.2s ease-out forwards;
+  }
+
+  &[data-state="closed"] {
+    animation: fade-out 0.2s ease-in forwards;
+  }
+}
+
+.closeTrigger {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+@keyframes scale-fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
