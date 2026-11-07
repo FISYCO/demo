@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const VolumeTimes = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3.5 7h1.767a2 2 0 0 0 1.293-.474l3.691-3.127c1.085-.92 2.75-.148 2.75 1.274v14.654c0 1.422-1.665 2.194-2.75 1.274l-3.69-3.127A2 2 0 0 0 5.266 17H3.5A1.5 1.5 0 0 1 2 15.5v-7A1.5 1.5 0 0 1 3.5 7m17.561 5 1.47-1.47a.75.75 0 1 0-1.061-1.061L20 10.939l-1.47-1.47a.75.75 0 1 0-1.061 1.06l1.47 1.47-1.47 1.47a.75.75 0 0 0 1.06 1.062L20 13.06l1.47 1.47a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061z" /></svg>;
+export { VolumeTimes };

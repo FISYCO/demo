@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StopwatchTimes = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="M8.25 3A.75.75 0 0 1 9 2.25h5a.75.75 0 0 1 0 1.5H9A.75.75 0 0 1 8.25 3M19 13.5A7.5 7.5 0 1 1 11.5 6c1.673 0 3.212.554 4.46 1.48l1.51-1.51c.29-.29.77-.29 1.06 0s.29.77 0 1.06l-1.46 1.46A7.46 7.46 0 0 1 19 13.5m-6.439 0 1.47-1.47a.75.75 0 1 0-1.061-1.061l-1.47 1.47-1.47-1.47a.75.75 0 1 0-1.061 1.061l1.47 1.47-1.47 1.47a.75.75 0 0 0 1.06 1.061l1.47-1.47 1.47 1.47a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061z" clipRule="evenodd" /></svg>;
+export { StopwatchTimes };

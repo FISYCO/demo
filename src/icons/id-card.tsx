@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const IdCard = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 4.5H6q-3 0-3 3v9q0 3 3 3h12q3 0 3-3v-9q0-3-3-3m-8.994 3c1.186 0 2.15.964 2.15 2.15s-.965 2.15-2.15 2.15a2.151 2.151 0 0 1 0-4.3M12.5 16a.5.5 0 0 1-.5.5H6a.5.5 0 0 1-.5-.5v-.303c0-1.34.981-2.697 2.858-2.697h1.283c1.877 0 2.858 1.356 2.858 2.697zm5.45-1.25h-3a.75.75 0 0 1 0-1.5h3a.75.75 0 0 1 0 1.5m.05-4.062h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5" /></svg>;
+export { IdCard };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Vk = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 18h-3.19c-.69-2.13-2.39-3.79-4.65-4.01V18h-.36C6.72 18 3.2 13.88 3 7h3.09c.16 4.98 2.39 7.11 4.16 7.55V7h2.9v4.21c1.71-.18 3.51-2.07 4.2-4.21h2.92a8.65 8.65 0 0 1-3.89 5.37A8.87 8.87 0 0 1 20.99 18z" /></svg>;
+export { Vk };

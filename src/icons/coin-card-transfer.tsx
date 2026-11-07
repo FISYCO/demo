@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CoinCardTransfer = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3.001 11.8a.75.75 0 0 1-.746-.831A9.63 9.63 0 0 1 7.61 3.327a.75.75 0 0 1 1.081.674v3.05a.75.75 0 0 1-1.5 0v-1.74a8.14 8.14 0 0 0-3.445 5.822.75.75 0 0 1-.745.667m13.389 8.873a9.63 9.63 0 0 0 5.355-7.642.749.749 0 1 0-1.49-.163 8.14 8.14 0 0 1-3.445 5.823V16.95a.75.75 0 0 0-1.5 0V20a.75.75 0 0 0 1.08.673M12 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0m-.5 7h-6Q4 14 4 15.5v.25h9v-.25q0-1.5-1.5-1.5M4 17.25v2.25Q4 21 5.5 21h6q1.5 0 1.5-1.5v-2.25zm3.5 2.25H6c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h1.5c.28 0 .5.22.5.5s-.22.5-.5.5" /></svg>;
+export { CoinCardTransfer };

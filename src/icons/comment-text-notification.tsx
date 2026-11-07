@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CommentTextNotification = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20.61 9.458c-.055-.167-.244-.237-.408-.174a3.5 3.5 0 0 1-1.836.163c-1.317-.221-2.416-1.245-2.748-2.539a3.5 3.5 0 0 1 .049-1.971c.051-.16-.024-.336-.183-.39A10.9 10.9 0 0 0 12 3.999c-4.97 0-9 3-9 8.001 0 2.12.73 3.891 1.95 5.211-.15.96-.69 2.06-1.78 2.94-.33.28-.14.83.29.84 1.42.05 3.61-.14 4.95-1.57 1.1.38 2.31.58 3.59.58 4.97 0 9-3.001 9-8.001a8 8 0 0 0-.39-2.542M13 14.75H8a.75.75 0 0 1 0-1.5h5a.75.75 0 0 1 0 1.5m3-4H8a.75.75 0 0 1 0-1.5h8a.75.75 0 0 1 0 1.5m3-2.748A2 2 0 1 1 19.001 4 2 2 0 0 1 19 8.002" /></svg>;
+export { CommentTextNotification };

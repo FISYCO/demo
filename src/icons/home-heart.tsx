@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeHeart = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="m19.57 8.586-5.964-5.001a2.5 2.5 0 0 0-3.213 0L4.429 8.586c-.906.76-1.43 1.067-1.43 3.065V18q0 3 3 3h12q3 0 3-3v-6.349c.001-1.999-.522-2.305-1.43-3.065m-3.645 4.707C15.403 15.962 12 17.5 12 17.5s-3.403-1.537-3.925-4.207c-.32-1.637.38-3.285 2.157-3.293C11.556 9.994 12 11.318 12 11.318s.444-1.325 1.768-1.318c1.78.009 2.477 1.656 2.157 3.293" clipRule="evenodd" /></svg>;
+export { HomeHeart };

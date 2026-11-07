@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowTurnLeftDown = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19 3a1 1 0 0 1-1 1h-5c-1.103 0-2 .897-2 2v12.586l2.293-2.293a.999.999 0 1 1 1.414 1.414l-3.999 4a1 1 0 0 1-1.416 0l-3.999-4a.999.999 0 1 1 1.414-1.414L9 18.586V6c0-2.206 1.794-4 4-4h5a1 1 0 0 1 1 1" /></svg>;
+export { ArrowTurnLeftDown };

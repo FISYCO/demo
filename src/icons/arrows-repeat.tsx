@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowsRepeat = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22 12v3c0 2.206-1.794 4-4 4H5.414l1.293 1.293a.999.999 0 1 1-1.414 1.414l-2.999-2.999a1 1 0 0 1 0-1.416l2.999-2.999a.999.999 0 1 1 1.414 1.414L5.414 17H18c1.103 0 2-.897 2-2v-3a1 1 0 1 1 2 0M3 13a1 1 0 0 0 1-1V9c0-1.103.897-2 2-2h12.586l-1.293 1.293a.999.999 0 1 0 1.414 1.414l3-2.999a1 1 0 0 0 0-1.416l-3-2.999a.999.999 0 1 0-1.414 1.414L18.586 5H6C3.794 5 2 6.794 2 9v3a1 1 0 0 0 1 1" /></svg>;
+export { ArrowsRepeat };

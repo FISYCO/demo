@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CrownAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M4.863 15.876 3.044 8.843c-.285-1.047.881-1.887 1.783-1.285l2.316 1.544a.978.978 0 0 0 1.428-.398l2.364-5.029c.422-.899 1.701-.899 2.124-.001l2.37 5.031a.978.978 0 0 0 1.427.397l2.316-1.544c.903-.602 2.069.239 1.783 1.285l-1.819 7.033A1.5 1.5 0 0 1 17.684 17H6.314c-.683 0-1.28-.462-1.451-1.124M19.25 20a.75.75 0 0 0-.75-.75h-13a.75.75 0 0 0 0 1.5h13a.75.75 0 0 0 .75-.75" /></svg>;
+export { CrownAlt };

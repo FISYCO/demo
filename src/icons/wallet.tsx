@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Wallet = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M13.25 14c0 1.79 1.46 3.25 3.25 3.25H21V18q0 3-3 3H6q-3 0-3-3V5c0 1.1.9 2 2 2h13q3 0 3 3v.75h-4.5c-1.79 0-3.25 1.46-3.25 3.25m3.25-1.75c-.96 0-1.75.79-1.75 1.75s.79 1.75 1.75 1.75H21v-3.5zm.52 2.75c-.55 0-1.01-.45-1.01-1s.45-1 1-1h.01c.55 0 1 .45 1 1s-.45 1-1 1M15 3H5.75a1.25 1.25 0 0 0 0 2.5h12.22C17.82 3.83 16.83 3 15 3" /></svg>;
+export { Wallet };

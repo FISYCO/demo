@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Blogger = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19.82 9.96h-1.09c-.59 0-1.09-.5-1.09-1.09 0-3.11-2.52-5.86-5.64-5.86H8.64A5.64 5.64 0 0 0 3 8.65v6.73a5.64 5.64 0 0 0 5.64 5.64h6.73a5.64 5.64 0 0 0 5.64-5.64v-4.23c0-.67-.5-1.18-1.18-1.18zM8.55 7.82h4.04c.59 0 1.09.5 1.09 1.09S13.18 10 12.59 10H8.55c-.59 0-1.09-.5-1.09-1.09s.5-1.09 1.09-1.09m6.81 8.78H8.55c-.59 0-1.09-.5-1.09-1.09s.5-1.09 1.09-1.09h6.81c.59 0 1.09.5 1.09 1.09s-.5 1.09-1.09 1.09" /></svg>;
+export { Blogger };

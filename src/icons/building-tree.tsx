@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BuildingTree = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22 20.25h-1.75v-2.878A2.495 2.495 0 0 0 22 15v-3c0-1.378-1.121-2.5-2.5-2.5A2.503 2.503 0 0 0 17 12v3c0 1.115.739 2.052 1.75 2.372v2.878H15V6q0-3-3-3H6Q3 3 3 6v14.25H2a.75.75 0 0 0 0 1.5h20a.75.75 0 0 0 0-1.5m-11.5-13h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5m0 3h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5m-4-3h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5m0 3h1a.75.75 0 0 1 0 1.5h-1a.75.75 0 0 1 0-1.5M7 17a2 2 0 0 1 4 0v3.25H7z" /></svg>;
+export { BuildingTree };

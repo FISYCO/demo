@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LocationPinEye = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M13.25 11a1.25 1.25 0 1 1-1.26-1.25H12c.69 0 1.25.56 1.25 1.25m7.25 0c0 4.983-4.629 8.041-7.692 10.064l-.53.352a.5.5 0 0 1-.554 0l-.53-.352C8.131 19.041 3.502 15.983 3.502 11c0-4.687 3.813-8.5 8.5-8.5S20.5 6.313 20.5 11m-4.68-.66c-.55-.92-1.77-2.47-3.82-2.47s-3.27 1.55-3.82 2.47a1.3 1.3 0 0 0 0 1.32c.55.92 1.77 2.46 3.82 2.46s3.27-1.54 3.82-2.46a1.3 1.3 0 0 0 0-1.32" /></svg>;
+export { LocationPinEye };

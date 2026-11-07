@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeRoofLock = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M13 11.25v1.375h-2V11.25a1.001 1.001 0 0 1 2 0m8.579-1.11a.75.75 0 0 1-1.056.103L19.5 9.401V18c0 2.29-1.21 3.5-3.5 3.5H8c-2.29 0-3.5-1.21-3.5-3.5V9.402l-1.023.842a.75.75 0 0 1-.953-1.16L9.936 2.99a3.26 3.26 0 0 1 4.129 0l7.412 6.096a.75.75 0 0 1 .102 1.055m-6.08 3.985c0-.81-.344-1.274-1-1.429V11.25c0-1.378-1.12-2.5-2.5-2.5a2.503 2.503 0 0 0-2.5 2.5v1.446c-.654.154-1 .619-1 1.429v2.25q0 1.5 1.5 1.5h4q1.5 0 1.5-1.5z" /></svg>;
+export { HomeRoofLock };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CreditCardPlus = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 13c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m1.25 4.5h-.75v.75c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-.75h-.75c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h.75v-.75c0-.28.22-.5.5-.5s.5.22.5.5v.75h.75c.28 0 .5.22.5.5s-.22.5-.5.5M2 9.75V15q0 3 3 3h7.23c.17 0 .31-.14.31-.31A5.51 5.51 0 0 1 18 11.5c.55 0 1.07.08 1.57.23.04.01.08.02.12.02.17 0 .31-.13.31-.3v-1.7zm7 5H6c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h3c.41 0 .75.34.75.75s-.34.75-.75.75M17 4H5Q2 4 2 7v1.25h18V7q0-3-3-3" /></svg>;
+export { CreditCardPlus };

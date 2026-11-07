@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Popsicle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 3C9.24 3 7 5.24 7 8v6.5c0 .83.67 1.5 1.5 1.5h2.75v5c0 .41.34.75.75.75s.75-.34.75-.75v-5h2.75c.83 0 1.5-.67 1.5-1.5V8c0-2.76-2.24-5-5-5m-1.5 10.75c-.41 0-.75-.34-.75-.75V7c0-.41.34-.75.75-.75s.75.34.75.75v6c0 .41-.34.75-.75.75m3.75-.75c0 .41-.34.75-.75.75s-.75-.34-.75-.75V7c0-.41.34-.75.75-.75s.75.34.75.75z" /></svg>;
+export { Popsicle };

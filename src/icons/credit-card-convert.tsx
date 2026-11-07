@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CreditCardConvert = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20 7v1.25H2V7q0-3 3-3h12q3 0 3 3m0 2.75v1.23c0 .21-.2.34-.4.28a5.1 5.1 0 0 0-3.74.21 4.9 4.9 0 0 0-2.37 2.34 5.1 5.1 0 0 0-.23 3.79c.06.2-.07.4-.28.4H5q-3 0-3-3V9.75zM9.75 14a.75.75 0 0 0-.75-.75H6a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 .75-.75M22 18.25h-4.5a.75.75 0 0 1-.75-.75V17a.75.75 0 0 0-1.5 0v.5a2.25 2.25 0 0 0 2.25 2.25h2.792a.75.75 0 0 0 1.237.78l1-1A.75.75 0 0 0 22 18.25m-1.5-4.5h-2.792a.75.75 0 0 0-1.238-.78l-1 1a.75.75 0 0 0 .53 1.28h4.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 0 1.5 0V16a2.25 2.25 0 0 0-2.25-2.25" /></svg>;
+export { CreditCardConvert };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CheckboxSquareFill = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.5 21.75H6.25c-2.66 0-4.125-1.465-4.125-4.125V6.375c0-2.66 1.465-4.125 4.125-4.125H17.5c2.66 0 4.125 1.465 4.125 4.125v11.25c0 2.66-1.465 4.125-4.125 4.125m-11.25-18c-1.84 0-2.625.785-2.625 2.625v11.25c0 1.84.785 2.625 2.625 2.625H17.5c1.84 0 2.625-.785 2.625-2.625V6.375c0-1.84-.785-2.625-2.625-2.625zM8.125 18h7.5q2.25 0 2.25-2.25v-7.5q0-2.25-2.25-2.25h-7.5q-2.25 0-2.25 2.25v7.5q0 2.25 2.25 2.25" /></svg>;
+export { CheckboxSquareFill };

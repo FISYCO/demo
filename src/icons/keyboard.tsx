@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Keyboard = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 7h-5.25V6c0-.41.34-.75.75-.75h1c1.24 0 2.25-1.01 2.25-2.25 0-.41-.34-.75-.75-.75s-.75.34-.75.75-.34.75-.75.75h-1c-1.24 0-2.25 1.01-2.25 2.25v1H6q-3 0-3 3v7q0 3 3 3h12q3 0 3-3v-7q0-3-3-3m-5 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m-1 3a1 1 0 1 1 0 2 1 1 0 0 1 0-2m-2.5-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2M6 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1.5 2a1 1 0 1 1 2 0 1 1 0 0 1-2 0m7.5 3.75H9a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 0 1.5m2-3h-1.5a.75.75 0 0 1 0-1.5H17a.75.75 0 0 1 0 1.5m1.25-3H16.5a.75.75 0 0 1 0-1.5h1.75a.75.75 0 0 1 0 1.5" /></svg>;
+export { Keyboard };

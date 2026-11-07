@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CommentEdit = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 4c-4.97 0-9 3-9 8.001 0 2.12.73 3.891 1.95 5.211-.15.96-.69 2.06-1.78 2.94-.33.28-.14.83.29.84 1.42.05 3.61-.14 4.95-1.57 1.1.38 2.31.58 3.59.58 4.97 0 9-3.001 9-8.001C21 7 16.97 4 12 4m-1.78 12H8v-2.22l3.98-4 2.24 2.24zm5.52-5.49-.82.81-2.24-2.24.81-.82c.35-.35.91-.35 1.26 0l.99.99c.35.35.35.91 0 1.26" /></svg>;
+export { CommentEdit };

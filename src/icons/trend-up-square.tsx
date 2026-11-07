@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TrendUpSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3M8.75 17a.75.75 0 0 1-1.5 0v-1.5a.75.75 0 0 1 1.5 0zm4 0a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0zm4 0a.75.75 0 0 1-1.5 0v-5a.75.75 0 0 1 1.5 0zm0-7.8a.75.75 0 0 1-1.5 0v-.39l-1.799 1.799c-.566.567-1.556.566-2.122 0L10.05 9.33l-1.52 1.52a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.06l1.52-1.521a1.503 1.503 0 0 1 2.122 0l1.279 1.28 1.799-1.8h-.39a.75.75 0 0 1 0-1.5H16a.75.75 0 0 1 .75.751z" /></svg>;
+export { TrendUpSquare };

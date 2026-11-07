@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CloudCheck = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16 9c-.33 0-.65.03-.97.09a6.5 6.5 0 0 0-1.239-1.469A6.5 6.5 0 1 0 9.499 19h6.5A5.001 5.001 0 0 0 16 9m-1.47 3.697-2.667 2.667a.75.75 0 0 1-1.06 0L9.47 14.031a.75.75 0 1 1 1.061-1.061l.803.803 2.137-2.136a.75.75 0 1 1 1.059 1.06" /></svg>;
+export { CloudCheck };

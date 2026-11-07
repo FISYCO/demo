@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const WatchCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="M7.75 3a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5h-6A.75.75 0 0 1 7.75 3m12 9c0 .41-.34.75-.75.75h-1.047A6.498 6.498 0 0 1 5 12a6.498 6.498 0 0 1 12.953-.75H19c.41 0 .75.34.75.75m-5.8.9-1.7-1.275V8.5a.75.75 0 0 0-1.5 0V12a.75.75 0 0 0 .3.6l2 1.5a.75.75 0 0 0 1.05-.15.75.75 0 0 0-.15-1.05m.55 7.35h-6a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 0-1.5" clipRule="evenodd" /></svg>;
+export { WatchCircle };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CaretDown = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m10.698 15.396-4.38-5.194C5.582 9.329 6.206 8 7.352 8h9.296c1.146 0 1.77 1.33 1.034 2.202l-4.38 5.194a1.706 1.706 0 0 1-2.604 0" /></svg>;
+export { CaretDown };

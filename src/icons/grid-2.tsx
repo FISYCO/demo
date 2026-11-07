@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Grid2 = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M7 4.5v1Q7 7 5.5 7h-1Q3 7 3 5.5v-1Q3 3 4.5 3h1Q7 3 7 4.5M12.5 3h-1Q10 3 10 4.5v1Q10 7 11.5 7h1Q14 7 14 5.5v-1Q14 3 12.5 3m7 0h-1Q17 3 17 4.5v1Q17 7 18.5 7h1Q21 7 21 5.5v-1Q21 3 19.5 3m-14 7h-1Q3 10 3 11.5v1Q3 14 4.5 14h1Q7 14 7 12.5v-1Q7 10 5.5 10m7 0h-1Q10 10 10 11.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5m7 0h-1Q17 10 17 11.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5m-14 7h-1Q3 17 3 18.5v1Q3 21 4.5 21h1Q7 21 7 19.5v-1Q7 17 5.5 17m7 0h-1Q10 17 10 18.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5m7 0h-1Q17 17 17 18.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5" /></svg>;
+export { Grid2 };

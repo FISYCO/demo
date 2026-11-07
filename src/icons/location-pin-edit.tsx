@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LocationPinEdit = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 2.5c-4.687 0-8.5 3.813-8.5 8.5 0 4.983 4.629 8.041 7.692 10.064l.53.352a.5.5 0 0 0 .554 0l.53-.352c3.063-2.023 7.692-5.081 7.692-10.064C20.5 6.313 16.687 2.5 12 2.5m-1.781 12H8v-2.219l3.979-3.999 2.239 2.239zm5.519-5.488-.82.81-2.239-2.24.81-.82c.35-.35.91-.35 1.26 0l.99.99c.349.35.349.91-.001 1.26" /></svg>;
+export { LocationPinEdit };

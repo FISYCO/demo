@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FileBan = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M14.75 6V3.75l4.5 4.5H17c-1.58 0-2.25-.67-2.25-2.25m-2.25 5.75a2.753 2.753 0 0 0-2.75 2.75c0 .485.137.935.358 1.331l3.723-3.722a2.7 2.7 0 0 0-1.331-.359m7.5-2V18q0 3-3 3H8q-3 0-3-3V6q0-3 3-3h5.25v3c0 2.42 1.33 3.75 3.75 3.75zm-3.25 4.75a4.254 4.254 0 0 0-4.25-4.25 4.254 4.254 0 0 0-4.25 4.25 4.254 4.254 0 0 0 4.25 4.25 4.254 4.254 0 0 0 4.25-4.25m-5.581 2.391c.396.221.846.359 1.331.359a2.753 2.753 0 0 0 2.75-2.75 2.7 2.7 0 0 0-.358-1.331z" /></svg>;
+export { FileBan };

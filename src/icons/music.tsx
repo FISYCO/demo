@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Music = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19.5 4.54v10.969l-.002.008a3 3 0 0 1-2.998 2.984c-1.654 0-3-1.346-3-3s1.346-3 3-3a2.98 2.98 0 0 1 2 .78V8.14l-10 2.8v7.56c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3a2.98 2.98 0 0 1 2 .78V7.158c0-1.237.631-2.067 1.824-2.402l7.636-2.14c.752-.21 1.392-.138 1.852.21.457.348.688.924.688 1.714" /></svg>;
+export { Music };

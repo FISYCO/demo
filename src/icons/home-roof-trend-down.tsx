@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeRoofTrendDown = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m21.477 9.085-7.412-6.096a3.26 3.26 0 0 0-4.129 0L2.524 9.084a.751.751 0 0 0 .953 1.16L4.5 9.4v8.6c0 2.29 1.21 3.5 3.5 3.5h8c2.29 0 3.5-1.21 3.5-3.5V9.401l1.023.842a.75.75 0 0 0 1.056-.102.75.75 0 0 0-.102-1.057m-4.727 6.602a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h.689L12.63 13.38l-1.096 1.18c-.543.542-1.493.544-2.04 0L7.47 12.53A.75.75 0 0 1 8.53 11.47l2.027 2.027 1.096-1.179c.545-.545 1.494-.544 2.039 0l1.558 1.558v-.689a.75.75 0 0 1 1.5 0z" /></svg>;
+export { HomeRoofTrendDown };

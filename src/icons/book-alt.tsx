@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BookAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18.5 2.25H9.75v13.5h8.75c.14 0 .29-.02.42-.04.05-.01.09-.03.13-.04.07-.01.14-.03.2-.05v3.88c0 .41-.34.75-.75.75H7c-2.03 0-2.25-1.57-2.25-2.25s.22-2.25 2.25-2.25h1.25V2.25H7C4.58 2.25 3.25 3.58 3.25 6v12c0 2.24 1.51 3.75 3.75 3.75h11.5c1.24 0 2.25-1.01 2.25-2.25v-15c0-1.24-1.01-2.25-2.25-2.25" /></svg>;
+export { BookAlt };

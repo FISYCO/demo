@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeDashStar = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="m20.27 9.062-6.682-5.493a2.5 2.5 0 0 0-3.177 0L3.73 9.062a2 2 0 0 0-.698 1.903l1.455 7.982A2.5 2.5 0 0 0 6.947 21h10.105a2.5 2.5 0 0 0 2.459-2.052l1.455-7.983a1.99 1.99 0 0 0-.696-1.902m-4.164 3.927-1.53 1.48a.47.47 0 0 0-.136.417l.35 2.025a.506.506 0 0 1-.734.531l-1.836-.958a.48.48 0 0 0-.44 0l-1.835.957a.506.506 0 0 1-.735-.53l.35-2.025a.47.47 0 0 0-.136-.417l-1.53-1.48a.47.47 0 0 1 .262-.802l2.117-.305a.47.47 0 0 0 .356-.257l.917-1.843a.508.508 0 0 1 .909 0l.917 1.843a.47.47 0 0 0 .356.257l2.117.305c.388.055.542.53.261.802" clipRule="evenodd" /></svg>;
+export { HomeDashStar };

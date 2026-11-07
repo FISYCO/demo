@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BookmarksUser = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19.997 4.57V18l-.007-.014V18l-2.349-1.344a.3.3 0 0 1-.151-.26V8.471c-.041-2.487-1.546-3.97-4.06-3.971H8.217c-.174 0-.226-.152-.21-.325C8.13 2.731 8.984 2 10.56 2h6.867c1.71 0 2.57.86 2.57 2.57M16 8.57V22l-6-3.428L4 22V8.571Q4 6 6.571 6h6.857Q16 6 16 8.571M8.1 10.4c0 1.048.853 1.9 1.9 1.9s1.9-.852 1.9-1.9-.853-1.9-1.9-1.9-1.9.852-1.9 1.9m4.92 5.346c0-1.166-.852-2.346-2.48-2.346H9.462c-1.63 0-2.48 1.18-2.48 2.346V16a.5.5 0 0 0 .5.5h5.039a.5.5 0 0 0 .5-.5v-.254z" /></svg>;
+export { BookmarksUser };

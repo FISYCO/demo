@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Magnet = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3 6.95V4c0-.55.45-1 1-1h4c.55 0 1 .45 1 1v2.95a.3.3 0 0 1-.3.3H3.3a.3.3 0 0 1-.3-.3M20 3h-4c-.55 0-1 .45-1 1v2.95a.3.3 0 0 0 .3.3h5.4a.3.3 0 0 0 .3-.3V4c0-.55-.45-1-1-1m.7 5.75h-5.4a.3.3 0 0 0-.3.3V12a2.996 2.996 0 0 1-3.156 2.996C10.221 14.914 9 13.461 9 11.835V9.05a.3.3 0 0 0-.3-.3H3.3a.3.3 0 0 0-.3.3V12c.46 11.93 17.54 11.93 18 0V9.05a.3.3 0 0 0-.3-.3" /></svg>;
+export { Magnet };

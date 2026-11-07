@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Glass = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18.41 3.64c-.24-.25-.57-.39-.91-.39h-11c-.34 0-.67.14-.91.39s-.36.59-.34.93l.79 12.66c.13 2.1 1.72 3.51 3.95 3.51h4c2.23 0 3.82-1.41 3.95-3.52l.8-12.66c.02-.34-.1-.68-.34-.94zm-1.17 1.11-.23 3.73c-.64.19-2.17.46-4.82-.2-2.33-.58-4.16-.42-5.21-.22l-.21-3.3h10.47z" /></svg>;
+export { Glass };
