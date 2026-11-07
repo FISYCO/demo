@@ -4,7 +4,7 @@ import { chakra, useRecipe } from "@chakra-ui/react";
 import { buttonRecipe } from "./Button.recipe";
 
 export interface ButtonProps extends Omit<HTMLChakraProps<"button">, "size" | "variant" | "colorPalette"> {
-  size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
+  size?: "2xs" | "xs" | "sm" | "md" | "lg" | "xl" | "2xl";
   variant?: "solid" | "subtle" | "surface" | "outline" | "ghost" | "plain";
   colorPalette?: "gray" | "red" | "pink" | "purple" | "cyan" | "blue" | "teal" | "green" | "yellow" | "orange";
 }

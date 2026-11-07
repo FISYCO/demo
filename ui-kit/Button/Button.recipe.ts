@@ -38,6 +38,13 @@ export const buttonRecipe = defineRecipe({
   },
   variants: {
     size: {
+      "2xs": {
+        h: "6",
+        minW: "6",
+        textStyle: "xs",
+        px: "2",
+        gap: "1",
+      },
       xs: {
         h: "8",
         minW: "8",
