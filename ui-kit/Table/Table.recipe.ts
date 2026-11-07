@@ -129,6 +129,24 @@ export const tableSlotRecipe = defineSlotRecipe({
           borderBottom: "1px solid {colors.border.muted}",
         },
       },
+      subtle: {
+        root: {
+          fontFamily: "Inter",
+          fontSize: "sm",
+          fontWeight: "500",
+          lineHeight: "20px",
+          color: "fg",
+          borderWidth: "1px",
+          borderColor: "border.default",
+        },
+        columnHeader: {
+          borderBottom: "1px solid {colors.border.default}",
+        },
+        cell: {
+          color: "fg",
+          borderBottom: "1px solid {colors.border.default}",
+        },
+      },
     },
     size: {
       sm: {
