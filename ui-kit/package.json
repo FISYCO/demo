@@ -1,8 +1,12 @@
 {
-  "name": "@demo/ui",
-  "version": "1.0.0",
+  "name": "@seavora/ui",
+  "version": "2.4.0",
   "private": true,
-  "description": "Дизайн-система демо-проекта: то, что библиотекарь читает и сверяет с макетом.",
+  "description": "Дизайн-система Seavora: компоненты на Chakra UI с рецептами по макету в Figma.",
   "main": "index.ts",
-  "types": "index.ts"
+  "types": "index.ts",
+  "peerDependencies": {
+    "@chakra-ui/react": "^3.38.0",
+    "react": "^19.2.0"
+  }
 }

@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ExchangeHorizontalCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="M14 17.25a.75.75 0 0 1-.53-1.281l1.72-1.72H9a.75.75 0 0 1 0-1.5h8a.75.75 0 0 1 .53 1.28l-3 3a.74.74 0 0 1-.53.221m1.75-6.75a.75.75 0 0 0-.75-.75H8.811l1.72-1.72A.75.75 0 1 0 9.47 6.969l-3 3a.75.75 0 0 0 .53 1.28h8a.75.75 0 0 0 .75-.749" /></svg>;
-
-export { ExchangeHorizontalCircle };

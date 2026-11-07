@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const Minimize = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M15 10a.999.999 0 0 1-.707-1.707l6-6a.999.999 0 1 1 1.414 1.414l-6 6A1 1 0 0 1 15 10m-5.293-.293a1 1 0 0 0 0-1.414l-6-6a.999.999 0 1 0-1.414 1.414l6 6a.997.997 0 0 0 1.414 0m-6 12 6-6a.999.999 0 1 0-1.414-1.414l-6 6a.999.999 0 1 0 1.414 1.414m18 0a1 1 0 0 0 0-1.414l-6-6a.999.999 0 1 0-1.414 1.414l6 6a.997.997 0 0 0 1.414 0" opacity=".4" /><path fill="#25314c" d="M19 10h-4a1 1 0 0 1-1-1V5a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2m-9-1V5a1 1 0 1 0-2 0v3H5a1 1 0 1 0 0 2h4a1 1 0 0 0 1-1m0 10v-4a1 1 0 0 0-1-1H5a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0m6 0v-3h3a1 1 0 1 0 0-2h-4a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0" /></svg>;
-
-export { Minimize };

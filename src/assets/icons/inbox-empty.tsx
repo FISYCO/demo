@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const InboxEmpty = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M3.037 13h3.915c1.039 0 1.93.619 2.454 1.516A3 3 0 0 0 11.997 16c1.107 0 2.07-.596 2.59-1.484.526-.897 1.416-1.516 2.455-1.516h3.918c.03.16.04.32.04.49V18q0 3-3 3H6q-3 0-3-3v-4.51c0-.17.01-.33.04-.49z" /><path fill="#25314c" d="M16 4H8c-1.291 0-2.275.826-2.684 2.051l-2.162 6.487a3 3 0 0 0-.154.949V18q0 3 3 3h12q3 0 3-3v-4.513c0-.322-.052-.643-.154-.949l-2.162-6.487C18.275 4.826 17.291 4 16 4" opacity={0.4} /></svg>;
-export { InboxEmpty };

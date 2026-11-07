@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const StickyNoteTextCircle = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12.185 2h-.37C6.394 2 2 6.394 2 11.815v.37C2 17.606 6.395 22 11.815 22a6.5 6.5 0 0 0 2.407-.467v-2.866a4.444 4.444 0 0 1 4.445-4.444h2.866A6.5 6.5 0 0 0 22 11.816C22 6.394 17.606 2 12.185 2" opacity={0.4} /><path fill="#25314c" d="M14.222 18.667v2.866a6.5 6.5 0 0 0 2.176-1.43l3.703-3.704a6.5 6.5 0 0 0 1.431-2.176h-2.866a4.443 4.443 0 0 0-4.444 4.444M16 10.25H8.111a.75.75 0 0 1 0-1.5H16a.75.75 0 0 1 0 1.5M12.75 14a.75.75 0 0 0-.75-.75H8a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 .75-.75" /></svg>;
-export { StickyNoteTextCircle };

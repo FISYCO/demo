@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Ban = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.611 4.975 4.975 17.611c.418.522.892.996 1.414 1.414L19.025 6.389a9 9 0 0 0-1.414-1.414" /><path fill="#25314c" d="M12 1C5.935 1 1 5.935 1 12s4.935 11 11 11 11-4.935 11-11S18.065 1 12 1m0 20a8.95 8.95 0 0 1-5.611-1.975 9 9 0 0 1-1.414-1.414A8.95 8.95 0 0 1 3 12c0-4.962 4.037-9 9-9 2.122 0 4.071.742 5.611 1.975.522.418.996.892 1.414 1.414A8.95 8.95 0 0 1 21 12c0 4.962-4.037 9-9 9" opacity={0.4} /></svg>;
-export { Ban };

@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const Maximize = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m13.414 12 7.293-7.293a.999.999 0 1 0-1.414-1.414L12 10.586 4.707 3.293a.999.999 0 1 0-1.414 1.414L10.586 12l-7.293 7.293a.999.999 0 1 0 1.414 1.414L12 13.414l7.293 7.293a.997.997 0 0 0 1.414 0 1 1 0 0 0 0-1.414z" opacity=".4" /><path fill="#25314c" d="M8 21H4a1 1 0 0 1-1-1v-4a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2M21 8V4a1 1 0 0 0-1-1h-4a1 1 0 1 0 0 2h3v3a1 1 0 1 0 2 0m0 12v-4a1 1 0 1 0-2 0v3h-3a1 1 0 1 0 0 2h4a1 1 0 0 0 1-1M5 8V5h3a1 1 0 1 0 0-2H4a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0" /></svg>;
-
-export { Maximize };

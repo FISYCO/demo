@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const StickyNoteSquare = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21h6.477c.49 0 .962-.115 1.398-.314v-3.811a2.625 2.625 0 0 1 2.625-2.625h3.811c.199-.436.314-.909.314-1.398z" opacity={0.4} /><path fill="#25314c" d="M14.25 16.875v3.811c.363-.166.701-.387.989-.675l4.773-4.773c.288-.288.509-.626.675-.989h-3.811a2.626 2.626 0 0 0-2.626 2.626" /></svg>;
-export { StickyNoteSquare };

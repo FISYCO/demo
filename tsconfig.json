@@ -9,8 +9,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@demo/ui": ["ui-kit/index.ts"],
-      "@demo/ui/*": ["ui-kit/*"]
+      "@seavora/ui": ["ui-kit/index.ts"],
+      "@seavora/ui/*": ["ui-kit/*"]
     }
   },
   "include": ["ui-kit", "apps"]

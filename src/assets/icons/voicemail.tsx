@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Voicemail = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.5 16a4.505 4.505 0 0 1-4.5-4.5C13 9.019 15.019 7 17.5 7S22 9.019 22 11.5 19.981 16 17.5 16m0-7a2.503 2.503 0 0 0-2.5 2.5c0 1.378 1.121 2.5 2.5 2.5s2.5-1.122 2.5-2.5S18.879 9 17.5 9M6.5 16A4.505 4.505 0 0 1 2 11.5C2 9.019 4.019 7 6.5 7S11 9.019 11 11.5 8.981 16 6.5 16m0-7A2.503 2.503 0 0 0 4 11.5C4 12.878 5.121 14 6.5 14S9 12.878 9 11.5 7.879 9 6.5 9" /><path fill="#25314c" d="M17.5 16h-11a1 1 0 1 1 0-2h11a1 1 0 1 1 0 2" opacity={0.4} /></svg>;
-export { Voicemail };

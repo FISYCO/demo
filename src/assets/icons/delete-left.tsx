@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const DeleteLeft = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 15V9q0-3-3-3H9c-.398 0-.779.158-1.061.439l-4.5 4.5a1.5 1.5 0 0 0 0 2.121l4.5 4.5c.281.281.663.439 1.061.439h9Q21 18 21 15" opacity={0.4} /><path fill="#25314c" d="m15.061 12 1.47-1.47a.75.75 0 1 0-1.061-1.061L14 10.939l-1.47-1.47a.75.75 0 0 0-1.061 1.061l1.47 1.47-1.47 1.47a.75.75 0 0 0 1.06 1.061l1.47-1.47 1.47 1.47a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061z" /></svg>;
-export { DeleteLeft };

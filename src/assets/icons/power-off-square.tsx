@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const PowerOffSquare = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity={0.4} /><path fill="#25314c" d="M12 12.194a.75.75 0 0 1-.75-.75V7a.75.75 0 0 1 1.5 0v4.444a.75.75 0 0 1-.75.75m5.194.362a5.17 5.17 0 0 0-1.526-3.673.751.751 0 0 0-1.061 1.061 3.67 3.67 0 0 1 1.087 2.612A3.7 3.7 0 0 1 12 16.25a3.7 3.7 0 0 1-3.694-3.694c0-.983.386-1.91 1.087-2.612a.75.75 0 1 0-1.061-1.06 5.17 5.17 0 0 0-1.526 3.672A5.2 5.2 0 0 0 12 17.75a5.2 5.2 0 0 0 5.194-5.194" /></svg>;
-export { PowerOffSquare };

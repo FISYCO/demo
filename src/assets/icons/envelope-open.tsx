@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const EnvelopeOpen = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 21H6q-3 0-3-3V9.732c0-.836.418-1.616 1.113-2.08l6.223-4.148a3 3 0 0 1 3.328 0l6.223 4.148A2.5 2.5 0 0 1 21 9.732V18q0 3-3 3" opacity={0.4} /><path fill="#25314c" d="M11.866 15.263a1.68 1.68 0 0 1-.99-.323l-4.584-3.334a.75.75 0 1 1 .883-1.213l4.584 3.334c.064.047.15.047.217-.001l4.583-3.333a.75.75 0 1 1 .883 1.213l-4.584 3.334a1.7 1.7 0 0 1-.992.323" /></svg>;
-export { EnvelopeOpen };

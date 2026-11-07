@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const MonitorWaveform = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 7v10q0 3-3 3H6q-3 0-3-3V7q0-3 3-3h12q3 0 3 3" opacity={0.4} /><path fill="#25314c" d="M16.75 12c0 .41-.34.75-.75.75h-1.6l-1.78 2.67c-.14.21-.37.33-.62.33-.03 0-.07 0-.1-.01a.74.74 0 0 1-.61-.5l-1.52-4.55-1.15 1.73a.75.75 0 0 1-.62.33H3v-1.5h4.6l1.78-2.67c.16-.23.43-.37.72-.32.28.03.52.23.61.5l1.52 4.55 1.15-1.73c.13-.2.37-.33.62-.33h2c.41 0 .75.34.75.75" /></svg>;
-export { MonitorWaveform };

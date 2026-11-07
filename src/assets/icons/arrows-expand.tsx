@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowsExpand = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M14 11a.999.999 0 0 1-.707-1.707l7-7a.999.999 0 1 1 1.414 1.414l-7 7A1 1 0 0 1 14 11M3 22a.999.999 0 0 1-.707-1.707l7-7a.999.999 0 1 1 1.414 1.414l-7 7A1 1 0 0 1 3 22" opacity=".4" /><path fill="#25314c" d="M21 10a1 1 0 0 1-1-1V4h-5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1M9 22H3a1 1 0 0 1-1-1v-6a1 1 0 1 1 2 0v5h5a1 1 0 1 1 0 2" /></svg>;
-
-export { ArrowsExpand };
