@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const ClipboardSearch = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16 5h1q3 0 3 3v10q0 3-3 3H7q-3 0-3-3V8q0-3 3-3h1" opacity={0.4} /><path fill="#25314c" d="M16 4.5v1Q16 7 14.5 7h-5Q8 7 8 5.5v-1Q8 3 9.5 3h5Q16 3 16 4.5M16.03 16.47l-1.55-1.549a3.65 3.65 0 0 0 .603-2.003 3.67 3.67 0 0 0-3.666-3.667 3.67 3.67 0 0 0-3.667 3.667 3.67 3.67 0 0 0 3.667 3.667c.74 0 1.426-.224 2.003-.602l1.55 1.549a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.062m-6.78-3.553a2.17 2.17 0 0 1 2.167-2.167 2.17 2.17 0 0 1 2.166 2.167 2.17 2.17 0 0 1-2.166 2.167 2.17 2.17 0 0 1-2.167-2.167" /></svg>;
-export { ClipboardSearch };

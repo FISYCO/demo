@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowBackSquareAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity=".4" /><path fill="#25314c" d="M17.291 13.107a5.36 5.36 0 0 0-5.241-4.133c-1.426 0-2.76.57-3.743 1.521a.747.747 0 0 0-1.495.025v2.213a.74.74 0 0 0 .583.716c.017.008.028.021.046.028a.73.73 0 0 0 .448.006h1.89a.75.75 0 0 0 0-1.5h-.801a3.9 3.9 0 0 1 3.073-1.509 3.87 3.87 0 0 1 3.782 2.979.749.749 0 1 0 1.458-.346" /></svg>;
-
-export { ArrowBackSquareAlt };

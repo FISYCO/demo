@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Note = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.33 22h11.342q3.33 0 3.329-3.326V6.826q0-3.326-3.329-3.326H6.33Q3 3.5 3 6.826v11.848Q3 22 6.33 22" opacity={0.4} /><path fill="#25314c" d="M16 11.75H8a.75.75 0 0 1 0-1.5h8a.75.75 0 0 1 0 1.5M13.75 15a.75.75 0 0 0-.75-.75H8a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 .75-.75M16.444 5.75a.75.75 0 0 1-.75-.75V2a.75.75 0 0 1 1.5 0v3a.75.75 0 0 1-.75.75M12.75 5V2a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0M8.306 5V2a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0" /></svg>;
-export { Note };

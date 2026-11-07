@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowLeftArrowRightCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="M8.667 12.417a.74.74 0 0 1-.53-.22L6.47 10.53a.75.75 0 0 1-.219-.53.77.77 0 0 1 .219-.532l1.667-1.667a.75.75 0 1 1 1.061 1.061l-.386.386H15a.75.75 0 0 1 0 1.5H8.811l.386.386a.75.75 0 0 1-.53 1.283m9.083 1.58a.77.77 0 0 0-.219-.53l-1.667-1.668a.75.75 0 1 0-1.061 1.061l.386.386H9a.75.75 0 0 0 0 1.5h6.189l-.387.387a.75.75 0 0 0 1.06 1.061l1.667-1.667a.8.8 0 0 0 .16-.242.7.7 0 0 0 .061-.289" /></svg>;
-
-export { ArrowLeftArrowRightCircle };

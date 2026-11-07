@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const NoteListCheckSquare = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity={0.4} /><path fill="#25314c" d="M16.5 10.25h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5m.75 4.25a.75.75 0 0 0-.75-.75h-4a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 .75-.75m-8.553-3.803 1.333-1.333A.75.75 0 1 0 8.97 8.303l-.803.803-.137-.137a.751.751 0 0 0-1.061 1.061l.667.667a.75.75 0 0 0 1.062 0m0 5 1.333-1.333a.75.75 0 1 0-1.061-1.061l-.803.803-.137-.137a.751.751 0 0 0-1.061 1.061l.667.667a.75.75 0 0 0 1.062 0" /></svg>;
-export { NoteListCheckSquare };

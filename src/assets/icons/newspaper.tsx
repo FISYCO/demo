@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Newspaper = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19 20q3 0 3-3V8q0-3-3-3H9Q6 5 6 8v10a2 2 0 0 1-2 2z" opacity={0.4} /><path fill="#25314c" d="M4 9c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.41.36.37.86.59 1.41.59 1.1 0 2-.9 2-2V9zM9 15.577v-2.154q0-.923.923-.923h3.154q.923 0 .923.923v2.154q0 .923-.923.923H9.923Q9 16.5 9 15.577M19.75 13a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 .75-.75m0 3a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 .75-.75m0-7a.75.75 0 0 0-.75-.75H9.75a.75.75 0 0 0 0 1.5H19a.75.75 0 0 0 .75-.75" /></svg>;
-export { Newspaper };

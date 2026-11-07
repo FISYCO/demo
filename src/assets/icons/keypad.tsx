@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Keypad = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12.5 5.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /><path fill="#25314c" d="M18.5 5.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M6.5 5.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4" opacity={0.4} /><path fill="#25314c" d="M12.5 11.167a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /><path fill="#25314c" d="M18.5 11.167a2 2 0 1 0 0-4 2 2 0 0 0 0 4M6.5 11.167a2 2 0 1 0 0-4 2 2 0 0 0 0 4" opacity={0.4} /><path fill="#25314c" d="M12.5 16.833a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /><path fill="#25314c" d="M18.5 16.833a2 2 0 1 0 0-4 2 2 0 0 0 0 4M6.5 16.833a2 2 0 1 0 0-4 2 2 0 0 0 0 4" opacity={0.4} /><path fill="#25314c" d="M12.5 22.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /></svg>;
-export { Keypad };

@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const RegisteredCircle = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity={0.4} /><path fill="#25314c" d="M14.098 12.518A2.75 2.75 0 0 0 15.75 10 2.75 2.75 0 0 0 13 7.25H9a.75.75 0 0 0-.75.75v8a.75.75 0 0 0 1.5 0v-3.25h2.786l1.793 3.585a.75.75 0 0 0 1.342-.67zM9.75 8.75H13c.689 0 1.25.561 1.25 1.25s-.561 1.25-1.25 1.25H9.75z" /></svg>;
-export { RegisteredCircle };

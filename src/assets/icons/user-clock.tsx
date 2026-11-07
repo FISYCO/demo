@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const UserClock = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M10.009 10.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8" /><path fill="#25314c" d="M14.687 13.06c-.726-.35-1.612-.56-2.687-.56H8c-4.06 0-5.5 2.97-5.5 5.52 0 2.28 1.21 3.48 3.5 3.48h7.165c.234 0 .385-.261.255-.455a5.49 5.49 0 0 1 1.314-7.462.303.303 0 0 0-.047-.523" opacity={0.4} /><path fill="#25314c" d="M18 14c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4m1.42 5.42a.485.485 0 0 1-.7 0l-1.07-1.07a.47.47 0 0 1-.15-.35v-1.5c0-.28.22-.5.5-.5s.5.22.5.5v1.29l.92.93c.2.19.2.51 0 .7" /></svg>;
-export { UserClock };

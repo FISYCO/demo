@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowImport = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20.707 3.293a1 1 0 0 0-1.414 0L12 10.586V8a1 1 0 1 0-2 0v5a1 1 0 0 0 1 1h5a1 1 0 1 0 0-2h-2.586l7.293-7.293a1 1 0 0 0 0-1.414" /><path fill="#25314c" d="M17 21H7c-2.542 0-4-1.458-4-4V7c0-2.542 1.458-4 4-4h4a1 1 0 1 1 0 2H7c-1.439 0-2 .561-2 2v10c0 1.439.561 2 2 2h10c1.439 0 2-.561 2-2v-4a1 1 0 1 1 2 0v4c0 2.542-1.458 4-4 4" opacity=".4" /></svg>;
-
-export { ArrowImport };

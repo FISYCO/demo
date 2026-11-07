@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowDownArrowUpSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity=".4" /><path fill="#25314c" d="M12.199 14.803a.75.75 0 0 1 0 1.061l-1.667 1.667a.76.76 0 0 1-.817.162.8.8 0 0 1-.243-.162l-1.667-1.667a.75.75 0 1 1 1.061-1.06l.387.385V9a.75.75 0 0 1 1.5 0v6.19l.387-.386a.75.75 0 0 1 1.059 0m3.996-6.667L14.528 6.47a.75.75 0 0 0-1.06 0L11.8 8.136a.75.75 0 0 0 1.061 1.061l.387-.386v6.19a.75.75 0 0 0 1.5 0v-6.19l.387.386a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.06" /></svg>;
-
-export { ArrowDownArrowUpSquare };

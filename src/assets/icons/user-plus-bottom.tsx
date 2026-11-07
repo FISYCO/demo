@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const UserPlusBottom = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.235 14.26C16.37 13.224 15.002 12.5 13 12.5H9c-4.06 0-5.5 2.97-5.5 5.52 0 2.28 1.21 3.48 3.5 3.48h7.24c.23 0 .362-.244.256-.448A4.5 4.5 0 0 1 13.999 19a4.49 4.49 0 0 1 3.076-4.273c.202-.066.295-.305.16-.467" opacity={0.4} /><path fill="#25314c" d="M11.009 10.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8M21 18.25h-1.25V17a.75.75 0 0 0-1.5 0v1.25H17a.75.75 0 0 0 0 1.5h1.25V21a.75.75 0 0 0 1.5 0v-1.25H21a.75.75 0 0 0 0-1.5" /></svg>;
-export { UserPlusBottom };

@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const TriangleExclamation = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.607 17.152 15 4.796c-1.28-2.394-4.72-2.394-6 0L2.393 17.152C1.219 19.348 2.813 22 5.308 22h13.384c2.494 0 4.089-2.653 2.915-4.848" opacity={0.4} /><path fill="#25314c" d="M12 14.75a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-.75.75M13.02 17a1 1 0 0 0-1-1h-.01a.996.996 0 0 0-.995 1c0 .552.453 1 1.005 1a1 1 0 0 0 1-1" /></svg>;
-export { TriangleExclamation };

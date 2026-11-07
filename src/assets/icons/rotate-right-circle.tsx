@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const RotateRightCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10" opacity=".4" /><path fill="#25314c" d="M16 7.694a.75.75 0 0 0-.75.75v.098A4.75 4.75 0 0 0 12 7.249a4.756 4.756 0 0 0-4.75 4.75 4.756 4.756 0 0 0 4.75 4.75 4.72 4.72 0 0 0 4.254-2.639.75.75 0 0 0-1.344-.667A3.23 3.23 0 0 1 12 15.25a3.254 3.254 0 0 1-3.25-3.25A3.254 3.254 0 0 1 12 8.749c.979 0 1.878.446 2.483 1.167h-.706a.75.75 0 0 0 0 1.5H16a.75.75 0 0 0 .75-.75V8.444a.75.75 0 0 0-.75-.75" /></svg>;
-
-export { RotateRightCircle };

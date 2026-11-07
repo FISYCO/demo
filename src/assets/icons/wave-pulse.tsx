@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const WavePulse = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M8.913 19c-.688 0-1.28-.458-1.451-1.13l-1.239-4.873H3a1 1 0 1 1 0-2h3.223c.916 0 1.713.62 1.938 1.508l.668 2.627 1.76-9.895A1.486 1.486 0 0 1 12.026 4c.744-.031 1.338.458 1.501 1.16l1.828 7.86.477-.933a1.99 1.99 0 0 1 1.781-1.09H21a1 1 0 1 1 0 2h-3.388l-1.1 2.152a1.5 1.5 0 0 1-1.518.807 1.48 1.48 0 0 1-1.278-1.15L12.13 7.99l-1.738 9.774a1.49 1.49 0 0 1-1.423 1.236z" opacity={0.4} /></svg>;
-export { WavePulse };

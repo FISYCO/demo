@@ -1,10 +1,14 @@
 {
-  "name": "fisyco-demo",
+  "name": "seavora",
   "private": true,
-  "version": "0.1.0",
-  "description": "Демо-репозиторий FISYCO: дизайн-система в ui-kit и продукт, который её применяет.",
-  "workspaces": ["ui-kit", "apps/web"],
+  "version": "3.12.0",
+  "description": "Seavora: поиск и бронирование поездок и жилья. Дизайн-система — в ui-kit, продукт — в apps/web.",
+  "workspaces": [
+    "ui-kit",
+    "apps/web"
+  ],
   "dependencies": {
+    "@chakra-ui/react": "^3.38.0",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   }

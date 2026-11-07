@@ -1,6 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-
-const ArrowBackSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6.375 21h11.25Q21 21 21 17.625V6.375Q21 3 17.625 3H6.375Q3 3 3 6.375v11.25Q3 21 6.375 21" opacity=".4" /><path fill="#25314c" d="M14.25 9.752H9.311l.22-.22a.75.75 0 0 0-1.06-1.061l-1.5 1.5a.75.75 0 0 0-.163.817.8.8 0 0 0 .162.244l1.5 1.5a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.061l-.22-.22h4.94c.826 0 1.5.673 1.5 1.5s-.674 1.5-1.5 1.5H9a.75.75 0 0 0 0 1.5h5.25c1.654 0 3-1.346 3-3a3.003 3.003 0 0 0-3-2.999" /></svg>;
-
-export { ArrowBackSquare };

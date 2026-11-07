@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const ClipboardStar = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16 5h1q3 0 3 3v10q0 3-3 3H7q-3 0-3-3V8q0-3 3-3h1" opacity={0.4} /><path fill="#25314c" d="M16 4.5v1Q16 7 14.5 7h-5Q8 7 8 5.5v-1Q8 3 9.5 3h5Q16 3 16 4.5M12.374 10.728l.755 1.498a.39.39 0 0 0 .293.209l1.743.248a.38.38 0 0 1 .216.652l-1.26 1.202a.38.38 0 0 0-.112.339l.288 1.646c.058.334-.299.588-.604.431l-1.512-.778a.4.4 0 0 0-.362 0l-1.51.777c-.307.158-.665-.098-.606-.432l.288-1.644a.38.38 0 0 0-.112-.339l-1.26-1.202a.38.38 0 0 1 .216-.652l1.743-.248a.39.39 0 0 0 .293-.209l.755-1.498a.42.42 0 0 1 .748 0" /></svg>;
-export { ClipboardStar };

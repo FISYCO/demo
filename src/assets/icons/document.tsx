@@ -1,4 +1,0 @@
-import * as React from "react";
-import type { SVGProps } from "react";
-const Document = props => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M6 21q-3 0-3-3V6q0-3 3-3h8q3 0 3 3v13a2 2 0 0 0 2 2z" opacity={0.4} /><path fill="#25314c" d="M17 10h2.5c.83 0 1.5.67 1.5 1.5V19c0 .55-.22 1.05-.59 1.41-.36.37-.86.59-1.41.59-1.1 0-2-.9-2-2zM13 12.75H7a.75.75 0 0 1 0-1.5h6a.75.75 0 0 1 0 1.5M10.75 8a.75.75 0 0 0-.75-.75H7a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 .75-.75m3 8a.75.75 0 0 0-.75-.75H7a.75.75 0 0 0 0 1.5h6a.75.75 0 0 0 .75-.75" /></svg>;
-export { Document };
