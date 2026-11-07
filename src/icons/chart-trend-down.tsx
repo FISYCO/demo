@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ChartTrendDown = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 21H4.5C2.958 21 2 20.042 2 18.5V4a1 1 0 0 1 2 0v14.5c0 .449.051.5.5.5H21a1 1 0 0 1 0 2m-7-5v-4a1 1 0 0 0-2 0v4a1 1 0 0 0 2 0m-6 1a1 1 0 0 1-1-1v-6a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1m10 0a1 1 0 0 1-1-1v-2a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1m1-12a1 1 0 0 0-2 0v.736l-1.918-1.918a2.26 2.26 0 0 0-3.189 0l-1.15 1.15a.26.26 0 0 1-.361 0L8.707 3.293a.999.999 0 1 0-1.414 1.414l1.675 1.675c.879.88 2.311.88 3.189 0l1.15-1.15c.125-.125.234-.127.361 0l1.918 1.918H15a1 1 0 0 0 0 2h3q.197-.001.382-.077A1.01 1.01 0 0 0 19 8.15z" /></svg>;
+export { ChartTrendDown };

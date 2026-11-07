@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GameController = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16 7h-3.25V6c0-.41.34-.75.75-.75h1c1.24 0 2.25-1.01 2.25-2.25 0-.41-.34-.75-.75-.75s-.75.34-.75.75-.34.75-.75.75h-1c-1.24 0-2.25 1.01-2.25 2.25v1H8c-3 0-5 2-5 6v4c0 2 1 4 3 4h.253c1.09 0 2.11-.547 2.712-1.457 0 0 1.007-1.543 3.035-1.543s3.034 1.552 3.034 1.552A3.25 3.25 0 0 0 17.74 21H18c2 0 3-2 3-4v-4c0-4-2-6-5-6m-6 6.75H8.75V15a.75.75 0 0 1-1.5 0v-1.25H6a.75.75 0 0 1 0-1.5h1.25V11a.75.75 0 0 1 1.5 0v1.25H10a.75.75 0 0 1 0 1.5m4.75 1.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2m2.5-2.499a1 1 0 1 1 0-2 1 1 0 0 1 0 2" /></svg>;
+export { GameController };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MoneyBillConvert = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22.693 19.713a.75.75 0 0 1-.163.817l-1 1a.748.748 0 0 1-1.237-.78H17.5a2.25 2.25 0 0 1-2.25-2.25V18a.75.75 0 0 1 1.5 0v.5c0 .414.336.75.75.75H22a.75.75 0 0 1 .693.463M20.5 14.75h-2.792a.75.75 0 0 0-1.238-.78l-1 1a.75.75 0 0 0 .53 1.28h4.5a.75.75 0 0 1 .75.75v.5a.75.75 0 0 0 1.5 0V17a2.25 2.25 0 0 0-2.25-2.25M13 17q0 .285.03.57c.01.04.02.08.02.12 0 .17-.14.31-.31.31H5q-3 0-3-3V7q0-3 3-3h12q3 0 3 3v4.98c0 .21-.2.34-.4.28A5.002 5.002 0 0 0 13 17m-7-6.001a1 1 0 1 0-2 0 1 1 0 0 0 2 0M14 11a3 3 0 1 0-6 0 3 3 0 0 0 6 0" /></svg>;
+export { MoneyBillConvert };

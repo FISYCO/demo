@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BookOpenReader = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 10.501v8a.495.495 0 0 1-.492.5c-2.233.01-6.656.147-8.508 1.999-1.852-1.852-6.275-1.989-8.508-1.999a.495.495 0 0 1-.492-.5v-8c0-.277.225-.501.501-.501 1.891.004 3.783.052 5.674.646A4.02 4.02 0 0 1 12 14.474a4.02 4.02 0 0 1 2.825-3.828c1.891-.594 3.782-.642 5.674-.646a.5.5 0 0 1 .501.501M12 8.5c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3" /></svg>;
+export { BookOpenReader };

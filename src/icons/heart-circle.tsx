@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HeartCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2m4.675 9.952C16.054 15.155 12 17 12 17s-4.054-1.845-4.675-5.048C6.944 9.987 7.776 8.01 9.894 8 11.471 7.992 12 9.582 12 9.582s.529-1.59 2.106-1.582c2.122.01 2.95 1.987 2.569 3.952" /></svg>;
+export { HeartCircle };

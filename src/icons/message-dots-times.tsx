@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageDotsTimes = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M18 3H6Q3 3 3 6v15l3-3h7.747c.234 0 .31-.224.295-.339a5 5 0 0 1-.041-.661c0-2.76 2.24-5 5-5 .557 0 1.096.092 1.597.258A.3.3 0 0 0 21 11.98V6Q21 3 18 3m-9.98 8.5a1.005 1.005 0 0 1-1.005-1c0-.552.443-1 .995-1h.01a1 1 0 1 1 0 2m4 0a1.005 1.005 0 0 1-1.005-1c0-.552.443-1 .995-1h.01a1 1 0 1 1 0 2m4 0a1.005 1.005 0 0 1-1.005-1c0-.552.443-1 .995-1h.01a1 1 0 1 1 0 2m5.51 6.97a.75.75 0 0 1-1.06 1.061L19 18.061l-1.47 1.47a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061L17.94 17l-1.47-1.47a.75.75 0 1 1 1.061-1.061l1.47 1.47 1.47-1.47a.75.75 0 0 1 1.061 1.061L20.062 17z" /></svg>;
+export { MessageDotsTimes };

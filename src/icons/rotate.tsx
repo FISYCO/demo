@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Rotate = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22 4v5a1 1 0 0 1-1 1h-5a1 1 0 1 1 0-2h2.91A7.99 7.99 0 0 0 12 4a7.97 7.97 0 0 0-7.946 7.108 1 1 0 0 1-1.988-.217A9.97 9.97 0 0 1 12 2c3.203 0 6.147 1.535 8 4.008V4A1 1 0 1 1 22 4m-.95 8.006a.995.995 0 0 0-1.104.886A7.97 7.97 0 0 1 12 20a7.99 7.99 0 0 1-6.91-4H8a1 1 0 1 0 0-2H3a1 1 0 0 0-1 1v5a1 1 0 1 0 2 0v-2.008A10 10 0 0 0 12 22a9.97 9.97 0 0 0 9.935-8.892 1 1 0 0 0-.886-1.102" /></svg>;
+export { Rotate };

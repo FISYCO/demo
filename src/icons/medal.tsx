@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Medal = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="M18.5 14.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0M21 3h-5l-2.11 3.324a.294.294 0 0 0 .18.443A8 8 0 0 1 17.164 8.4a.294.294 0 0 0 .443-.062zM10.11 6.324 8 3H3l3.395 5.339c.098.154.304.18.443.062a8 8 0 0 1 3.094-1.633.295.295 0 0 0 .178-.444" clipRule="evenodd" /></svg>;
+export { Medal };

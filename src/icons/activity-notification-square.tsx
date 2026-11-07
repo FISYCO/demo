@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ActivityNotificationSquare = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20.629 7.443a3.5 3.5 0 0 1-.858.05c-1.727-.104-3.165-1.546-3.264-3.273a3.5 3.5 0 0 1 .051-.849c.036-.19-.095-.371-.29-.371H6.381c-2.26 0-3.38 1.12-3.38 3.37v11.25c0 2.25 1.12 3.38 3.38 3.38h11.24c2.26 0 3.38-1.13 3.38-3.38V7.733c-.001-.195-.181-.326-.372-.29M17.53 10.53l-2.793 2.793a1.75 1.75 0 0 1-2.474.001l-1.589-1.585a.25.25 0 0 0-.354 0L7.529 14.53a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l2.791-2.791a1.75 1.75 0 0 1 2.474-.001l1.589 1.585a.25.25 0 0 0 .354 0l2.793-2.793a.75.75 0 1 1 1.06 1.061M22 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0" /></svg>;
+export { ActivityNotificationSquare };

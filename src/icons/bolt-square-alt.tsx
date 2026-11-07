@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BoltSquareAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.62 3H6.38C4.12 3 3 4.13 3 6.38v11.25C3 19.88 4.12 21 6.38 21h11.24c2.26 0 3.38-1.12 3.38-3.37V6.38C21 4.13 19.88 3 17.62 3m-1.06 8.64-5.5 6.11c-.08.08-.18.13-.28.13-.05 0-.09-.01-.14-.03a.38.38 0 0 1-.24-.35v-4.51H7.72c-.15 0-.28-.09-.34-.23a.37.37 0 0 1 .06-.4l5.5-6.11c.11-.12.27-.16.42-.1.14.06.24.19.24.35v4.51h2.68c.15 0 .28.09.34.23.06.13.04.29-.06.4" /></svg>;
+export { BoltSquareAlt };

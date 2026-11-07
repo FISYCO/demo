@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const LightEmergency = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 3c-2.12 0-3.97.8-5.3 2.25-1.32 1.46-2.11 3.57-2.11 6.22v4.73a.3.3 0 0 0 .3.3h14.22a.3.3 0 0 0 .3-.3v-4.73C19.41 6.18 16.24 3 12 3m0 4.511a2.84 2.84 0 0 0-2.858 2.637.75.75 0 0 1-1.496-.117A4.333 4.333 0 0 1 12 6.011a.75.75 0 0 1 0 1.5M3 19.5A1.5 1.5 0 0 1 4.5 18h15.001c.828 0 1.499.671 1.499 1.499V21H3z" /></svg>;
+export { LightEmergency };

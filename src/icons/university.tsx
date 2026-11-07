@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const University = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22 21.25h-.5V12.5c0-.828-.5-1.5-1.5-1.5h-.2a.3.3 0 0 0-.3.3v9.95H18V6.575l1.586 1.051a.75.75 0 0 0 1.039-.21.75.75 0 0 0-.211-1.04l-7.166-4.748a2.24 2.24 0 0 0-2.494-.001L3.586 6.375a.75.75 0 1 0 .828 1.251L6 6.575V21.25H4.5V11.3a.3.3 0 0 0-.3-.3H4c-1 0-1.5.672-1.5 1.5v8.75H2a.75.75 0 0 0 0 1.5h20a.75.75 0 0 0 0-1.5m-13-7a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m5 7h-4V19a2 2 0 0 1 4 0zm-2.75-7.75a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M12 10A2 2 0 1 1 12.001 6 2 2 0 0 1 12 10m3 4.25a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5" /></svg>;
+export { University };

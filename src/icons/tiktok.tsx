@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tiktok = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M20 10.38c-1.55 0-3.31-.48-4.57-1.38v6.28c0 3.16-2.56 5.72-5.72 5.71-3.16 0-5.72-2.56-5.71-5.72 0-3.16 2.56-5.72 5.72-5.71.26 0 .52.02.78.05v3.16c-1.38-.43-2.86.33-3.29 1.72s.33 2.86 1.72 3.29a2.623 2.623 0 0 0 3.41-2.51V2.98h3.09c0 .26.02.52.07.78.22 1.16.9 2.18 1.9 2.82.7.46 1.77.71 2.61.71v3.07z" /></svg>;
+export { Tiktok };

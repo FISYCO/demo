@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const DiamondExclamation = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m21.03 9.656-6.686-6.685a3.314 3.314 0 0 0-4.688 0L2.971 9.656a3.314 3.314 0 0 0 0 4.688l6.685 6.685a3.314 3.314 0 0 0 4.688 0l6.685-6.685a3.314 3.314 0 0 0 0-4.688M11.25 8.5a.75.75 0 0 1 1.5 0v4a.75.75 0 0 1-1.5 0zm.77 8a1.005 1.005 0 0 1-1.005-1c0-.552.443-1 .995-1h.01a1 1 0 1 1 0 2" /></svg>;
+export { DiamondExclamation };

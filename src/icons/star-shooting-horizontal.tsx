@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const StarShootingHorizontal = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="m15.326 6.421 1.371 2.765a.71.71 0 0 0 .533.386l3.164.458c.58.084.812.796.391 1.204l-2.288 2.22a.7.7 0 0 0-.204.625l.523 3.038a.756.756 0 0 1-1.097.796l-2.745-1.436a.7.7 0 0 0-.657 0l-2.743 1.435a.757.757 0 0 1-1.098-.797l.523-3.035a.7.7 0 0 0-.204-.625l-2.288-2.22a.705.705 0 0 1 .391-1.204l3.164-.458a.71.71 0 0 0 .533-.386l1.37-2.765a.76.76 0 0 1 1.361-.001M7.75 17a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 .75-.75M5 12.75H3a.75.75 0 0 1 0-1.5h2a.75.75 0 0 1 0 1.5m2-5H3a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5" /></svg>;
+export { StarShootingHorizontal };

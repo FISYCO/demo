@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ImagePlus = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21.75 11v6c0 2.418-1.332 3.75-3.75 3.75H6c-2.418 0-3.75-1.332-3.75-3.75V7c0-2.418 1.332-3.75 3.75-3.75h7a.75.75 0 0 1 0 1.5H6c-1.577 0-2.25.673-2.25 2.25v9.25l2.54-2.54c.39-.39 1.03-.39 1.42 0l.94.94c.19.19.51.19.7 0l4.94-4.94c.39-.39 1.03-.39 1.42 0l4.54 4.54V11a.75.75 0 0 1 1.5 0M7.993 7.75c-.689 0-1.243.56-1.243 1.25s.564 1.25 1.252 1.25a1.25 1.25 0 0 0 0-2.5zm9.007-2h1.25V7a.75.75 0 0 0 1.5 0V5.75H21a.75.75 0 0 0 0-1.5h-1.25V3a.75.75 0 0 0-1.5 0v1.25H17a.75.75 0 0 0 0 1.5" /></svg>;
+export { ImagePlus };

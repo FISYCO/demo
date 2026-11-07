@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Tumbler = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17 21h-3.01c-2.71 0-4.72-1.39-4.72-4.72v-5.34H7V8.05c2.71-.7 3.65-3.03 3.78-5.05h2.81v4.58h3.28v3.36h-3.28v4.65c0 1.39.7 1.87 1.82 1.87H17z" /></svg>;
+export { Tumbler };

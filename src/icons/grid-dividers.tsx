@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const GridDividers = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 3.75H3a.75.75 0 0 1 0-1.5h18a.75.75 0 0 1 0 1.5M21.75 14a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 .75-.75M5.5 6h-1Q3 6 3 7.5v1Q3 10 4.5 10h1Q7 10 7 8.5v-1Q7 6 5.5 6m7 0h-1Q10 6 10 7.5v1q0 1.5 1.5 1.5h1Q14 10 14 8.5v-1Q14 6 12.5 6m7 0h-1Q17 6 17 7.5v1q0 1.5 1.5 1.5h1Q21 10 21 8.5v-1Q21 6 19.5 6m-14 11h-1Q3 17 3 18.5v1Q3 21 4.5 21h1Q7 21 7 19.5v-1Q7 17 5.5 17m7 0h-1Q10 17 10 18.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5m7 0h-1Q17 17 17 18.5v1q0 1.5 1.5 1.5h1q1.5 0 1.5-1.5v-1q0-1.5-1.5-1.5" /></svg>;
+export { GridDividers };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const HomeSearch = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="M13.583 12.917a2.17 2.17 0 0 1-2.166 2.167 2.17 2.17 0 0 1-2.167-2.167 2.17 2.17 0 0 1 2.167-2.167 2.17 2.17 0 0 1 2.166 2.167M21 11.651V18q0 3-3 3H6q-3 0-3-3v-6.349c0-1.998.523-2.305 1.43-3.065l5.964-5.001a2.5 2.5 0 0 1 3.213 0l5.964 5.001c.906.76 1.429 1.066 1.429 3.065m-4.97 4.819-1.55-1.55a3.65 3.65 0 0 0 .602-2.004 3.67 3.67 0 0 0-3.666-3.667 3.67 3.67 0 0 0-3.667 3.667 3.67 3.67 0 0 0 3.667 3.667c.74 0 1.427-.224 2.003-.603l1.549 1.55a.75.75 0 0 0 1.06 0 .746.746 0 0 0 .002-1.06" clipRule="evenodd" /></svg>;
+export { HomeSearch };

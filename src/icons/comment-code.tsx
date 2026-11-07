@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const CommentCode = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 4c-4.97 0-9 3-9 8.001 0 2.12.73 3.89 1.95 5.21-.15.96-.69 2.061-1.78 2.941-.33.28-.14.83.29.84 1.42.05 3.61-.14 4.95-1.57 1.1.38 2.31.58 3.59.58 4.97 0 9-3 9-8.001S16.97 4 12 4m-.97 9.47a.75.75 0 0 1-1.06 1.061l-2-2a.75.75 0 0 1 0-1.061l2-2a.75.75 0 1 1 1.061 1.061l-1.47 1.47zm5-.94-2 2a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061l1.47-1.47-1.47-1.47a.75.75 0 0 1 1.061-1.061l2 2a.75.75 0 0 1-.001 1.062" /></svg>;
+export { CommentCode };

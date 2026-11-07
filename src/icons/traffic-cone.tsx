@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TrafficCone = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M15.016 9.25H8.984a.3.3 0 0 1-.293-.365L9.74 4.17C9.89 3.49 10.25 3 11.2 3h1.6c.95 0 1.31.49 1.46 1.17l1.049 4.715a.3.3 0 0 1-.293.365m1.623 5.635-.867-3.9a.3.3 0 0 0-.293-.235H8.52a.3.3 0 0 0-.293.235l-.867 3.9a.3.3 0 0 0 .293.365h8.692a.3.3 0 0 0 .294-.365M20 20.25h-2.17l-.728-3.265a.3.3 0 0 0-.293-.235H7.19a.3.3 0 0 0-.293.235l-.728 3.265H4a.75.75 0 0 0 0 1.5h16a.75.75 0 0 0 0-1.5" /></svg>;
+export { TrafficCone };

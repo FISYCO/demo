@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Plate = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M16.25 12A4.26 4.26 0 0 1 12 16.25 4.26 4.26 0 0 1 7.75 12 4.26 4.26 0 0 1 12 7.75 4.26 4.26 0 0 1 16.25 12M22 12c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2s10 4.48 10 10m-4.25 0c0-3.17-2.58-5.75-5.75-5.75S6.25 8.83 6.25 12s2.58 5.75 5.75 5.75 5.75-2.58 5.75-5.75" /></svg>;
+export { Plate };

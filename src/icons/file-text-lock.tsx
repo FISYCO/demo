@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FileTextLock = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17.75 12.93c.15-.03.25-.14.25-.29V9.75h-3c-2.42 0-3.75-1.33-3.75-3.75V3H6Q3 3 3 6v12q0 3 3 3h7.7c.17 0 .3-.13.3-.3v-1.65c0-.85.26-1.55.75-2.05v-.4c0-1.81 1.29-3.33 3-3.67M11 16.75H7a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 0 1.5m3-4H7a.75.75 0 0 1 0-1.5h7a.75.75 0 0 1 0 1.5M12.75 6V3.75l4.5 4.5H15c-1.58 0-2.25-.67-2.25-2.25m8 11.79V16.6c0-1.241-1.01-2.25-2.25-2.25a2.253 2.253 0 0 0-2.25 2.25v1.19q-.75.256-.75 1.26v2.1q0 1.35 1.35 1.35h3.3q1.35 0 1.35-1.35v-2.1q0-1.004-.75-1.26m-1.5-.09h-1.5v-1.1a.75.75 0 0 1 1.5 0z" /></svg>;
+export { FileTextLock };

@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const MessageCheck = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M14 17q0 .334.041.661c.015.115-.06.339-.295.339H6l-3 3V6q0-3 3-3h12q3 0 3 3v5.979c0 .209-.204.344-.403.28A5.1 5.1 0 0 0 19 12c-2.76 0-5 2.24-5 5m7.53-2.197a.75.75 0 0 0-1.061 0l-2.803 2.803-1.137-1.136a.75.75 0 0 0-1.061 1.061l1.667 1.667a.75.75 0 0 0 1.06 0l3.333-3.333a.75.75 0 0 0 .002-1.062" /></svg>;
+export { MessageCheck };

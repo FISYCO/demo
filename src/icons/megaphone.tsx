@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Megaphone = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M21 3.93v13.14c0 .78-.9 1.21-1.5.73l-1.03-.83a8.5 8.5 0 0 0-1.557-1 .29.29 0 0 1-.163-.261V5.292a.29.29 0 0 1 .163-.261 8.6 8.6 0 0 0 1.557-1l1.03-.83c.6-.481 1.5-.051 1.5.729m-6.116 11.305a.293.293 0 0 0 .366-.283V6.047a.293.293 0 0 0-.366-.283 9 9 0 0 1-2.044.235H7.696c-2.346 0-4.443 1.71-4.673 4.045A4.5 4.5 0 0 0 7.5 14.999l2.453 4.897a2 2 0 0 0 1.786 1.103H13l-1-6h.84a9 9 0 0 1 2.044.236" /></svg>;
+export { Megaphone };

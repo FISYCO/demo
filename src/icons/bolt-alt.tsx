@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const BoltAlt = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M19.457 10.797A.5.5 0 0 0 19 10.5h-4.5V3a.5.5 0 0 0-.872-.335l-9 10A.499.499 0 0 0 5 13.5h4.5V21a.5.5 0 0 0 .872.334l9-10a.5.5 0 0 0 .085-.537" /></svg>;
+export { BoltAlt };

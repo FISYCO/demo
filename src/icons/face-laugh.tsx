@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const FaceLaugh = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2M9 7.25c.72 0 1.25.74 1.25 1.75S9.72 10.75 9 10.75 7.75 10.01 7.75 9 8.28 7.25 9 7.25M12 18c-2.01 0-3.67-1.48-3.96-3.41-.05-.31.19-.59.5-.59h6.92c.31 0 .54.28.5.59A3.99 3.99 0 0 1 12 18m3-7.25c-.72 0-1.25-.74-1.25-1.75s.53-1.75 1.25-1.75 1.25.74 1.25 1.75-.53 1.75-1.25 1.75" /></svg>;
+export { FaceLaugh };

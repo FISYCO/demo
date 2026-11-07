@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PackageCheck = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12.75 8.95V3.3a.3.3 0 0 1 .3-.3h3.69c2.26 0 2.51.89 2.88 2.18l1.054 3.688a.3.3 0 0 1-.288.382H13.05a.3.3 0 0 1-.3-.3m-9.136.3h7.336a.3.3 0 0 0 .3-.3V3.3a.3.3 0 0 0-.3-.3H7.26C5 3 4.75 3.89 4.38 5.18L3.326 8.868a.3.3 0 0 0 .288.382M21 11.05V18q0 3-3 3H6q-3 0-3-3v-6.95a.3.3 0 0 1 .3-.3h17.4a.3.3 0 0 1 .3.3m-5.97 2.086a.75.75 0 0 0-1.061 0l-2.803 2.803-1.137-1.136a.75.75 0 0 0-1.061 1.061l1.667 1.667a.75.75 0 0 0 1.06 0l3.333-3.333a.75.75 0 0 0 .002-1.062" /></svg>;
+export { PackageCheck };

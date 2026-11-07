@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const ArrowBack = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M22 13.5c0 3.033-2.468 5.5-5.5 5.5H6a1 1 0 1 1 0-2h10.5c1.93 0 3.5-1.57 3.5-3.5S18.43 10 16.5 10H5.414l1.293 1.293a.999.999 0 1 1-1.414 1.414L2.294 9.708a1 1 0 0 1 0-1.416l2.999-2.999a.999.999 0 1 1 1.414 1.414L5.414 8H16.5c3.032 0 5.5 2.467 5.5 5.5" /></svg>;
+export { ArrowBack };

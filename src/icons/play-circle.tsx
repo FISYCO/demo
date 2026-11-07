@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const PlayCircle = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2m3.46 11.061-4.478 2.74c-.89.545-2.037-.094-2.037-1.137V9.336c0-1.043 1.146-1.682 2.037-1.137l4.478 2.74a1.243 1.243 0 0 1 0 2.122" /></svg>;
+export { PlayCircle };

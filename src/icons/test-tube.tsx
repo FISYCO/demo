@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const TestTube = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M17 2.25H7a.75.75 0 0 0 0 1.5h.75V17.5A4.255 4.255 0 0 0 12 21.75a4.255 4.255 0 0 0 4.25-4.25V3.75H17a.75.75 0 0 0 0-1.5M14.75 11h-5.5V3.75h5.5z" /></svg>;
+export { TestTube };

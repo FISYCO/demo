@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SdCard = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" d="M15.5 3h-5.379c-.398 0-.779.158-1.06.439L5.938 6.56A1.5 1.5 0 0 0 5.5 7.621V18q0 3 3 3h7q3 0 3-3V6q0-3-3-3m-5.25 6.5a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 1.5 0zm3 0a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 1.5 0zm3 0a.75.75 0 0 1-1.5 0V7a.75.75 0 0 1 1.5 0z" /></svg>;
+export { SdCard };

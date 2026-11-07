@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const Badge = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="m20.122 14.12-.441.441c-.281.281-.44.663-.44 1.061v.621a3 3 0 0 1-2.997 2.998h-.621c-.398 0-.779.158-1.061.439l-.442.441a3 3 0 0 1-4.24 0l-.442-.441a1.5 1.5 0 0 0-1.061-.439h-.621a3 3 0 0 1-2.998-2.998v-.621c0-.398-.158-.779-.44-1.061l-.44-.441a3 3 0 0 1 0-4.24l.44-.441c.282-.281.44-.663.44-1.061v-.621a3 3 0 0 1 2.998-2.998h.62c.399 0 .78-.158 1.062-.439l.442-.441a3 3 0 0 1 4.24 0l.442.441a1.5 1.5 0 0 0 1.061.439h.621a3 3 0 0 1 2.998 2.998v.621c0 .398.158.779.439 1.061l.44.441a3 3 0 0 1 0 4.24" clipRule="evenodd" /></svg>;
+export { Badge };

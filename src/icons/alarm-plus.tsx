@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const AlarmPlus = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}><path fill="#25314c" fillRule="evenodd" d="M21.536 5.525a.75.75 0 0 1-1.06.011l-2-1.96a.751.751 0 0 1 1.05-1.072l2 1.96c.294.29.299.765.01 1.061M5.53 2.47a.75.75 0 0 0-1.061 0l-2 2a.75.75 0 0 0 1.06 1.061l2-2A.75.75 0 0 0 5.53 2.47m11.073 16.067 1.929 1.934a.75.75 0 0 1-1.062 1.06l-2.218-2.225a7.96 7.96 0 0 1-6.5 0L6.533 21.53a.75.75 0 0 1-1.062-1.06L7.4 18.537A7.98 7.98 0 0 1 4.002 12a8 8 0 0 1 16 0 7.99 7.99 0 0 1-3.399 6.537M14.5 12.75a.75.75 0 0 0 0-1.5h-1.75V9.5a.75.75 0 0 0-1.5 0v1.75H9.5a.75.75 0 0 0 0 1.5h1.75v1.75a.75.75 0 0 0 1.5 0v-1.75z" clipRule="evenodd" /></svg>;
+export { AlarmPlus };
