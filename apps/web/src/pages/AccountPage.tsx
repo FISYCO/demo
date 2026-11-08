@@ -24,12 +24,7 @@ export function AccountPage({ confirmDelete }: { confirmDelete: boolean }) {
       <section>
         <h2>Notifications</h2>
         {NOTIFICATIONS.map((item) => (
-          <Switch.Root key={item} size="md" colorPalette="teal">
-            <Switch.Control>
-              <Switch.Thumb />
-            </Switch.Control>
-            <Switch.Label>{item}</Switch.Label>
-          </Switch.Root>
+          <Switch.Root key={item} size="md" colorPalette="teal" label={item} />
         ))}
       </section>
       <Separator />
